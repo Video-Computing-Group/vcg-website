@@ -2,7 +2,15 @@
   <div class="container">
     <HeaderAmit/>
     <NavBar/>
-    <nuxt/>
+    <div class="inherit-height">
+      <div id="home-body">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>Page Not Found</h1>
+          </div>
+        </div>
+      </div>
+    </div>
     <FooterAmit/>
   </div>
 </template>
@@ -21,3 +29,9 @@ export default {
 }
 </script>
 
+<style scoped>
+h1 {
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+</style>

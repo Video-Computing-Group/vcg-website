@@ -15,13 +15,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li v-for="item in navItems" :key="item.name">
-              <router-link :to="item.link">{{item.name}}</router-link>
+              <nuxt-link :to="item.link">{{item.name}}</nuxt-link>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research Projects<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li v-for="pub in publications" :key="pub.name">
-                  <router-link :to="pub.link">{{ pub.name }}</router-link>
+                  <nuxt-link :to="pub.link">{{ pub.name }}</nuxt-link>
                 </li>
                 <li><a href="http://vislab.ucr.edu/RESEARCH/Projects/VideoWeb/index.htm">VideoWeb: A Video Network Lab</a></li>
               </ul>

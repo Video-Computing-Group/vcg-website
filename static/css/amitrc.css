@@ -87,34 +87,6 @@ html, body {
     padding-left: 10%;
     padding-right: 10%;
 }
-.header-img {
-    width: 100%;
-}
-
-.header-img-container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.header-parent {
-    height: 15vh;
-    overflow: hidden;
-    margin-left: 0;
-    margin-right: 0;
-    border-top: 5px solid #ffc800;
-    border-bottom: 5px solid #ffc800;
-}
-
-@media (max-width: 1000px) {
-    .header-parent {
-        height: 12vh;
-        overflow: hidden;
-        margin-left: 0;
-        margin-right: 0;
-        border-top: 5px solid #ffc800;
-        border-bottom: 5px solid #ffc800;
-    }
-}
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;

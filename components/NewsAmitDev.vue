@@ -1,42 +1,23 @@
 <template>
   <div class="home-body">
-    <swiper :options="swiperOption">
-    <!-- slides -->
-    <swiper-slide v-for="n in news" :key="n.name">
-      <div v-if="n.link.length > 1">
-        <a :href="'../../static/publications/' + n.link">
-          <div v-if="n.type" class="banner" :style="convertToHex(n.type)"><strong>{{ n.type }}</strong></div>
-          <img class="news" :src="'../../static/img/featured_news/' + n.image" :alt="n.name">
-        </a>
-        <a :href="'../../static/publications/' + n.link">
-          {{ n.name }}
-        </a>
+    <div v-swiper:mySwiper="swiperOption">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" v-for="n in news" :key="n.name">
+          <a :href="'../../static/publications/' + n.link">
+            <div v-if="n.type" class="banner" :style="convertToHex(n.type)"><strong>{{ n.type }}</strong></div>
+            <img class="news" :src="'/img/featured_news/' + n.image" :alt="n.name">
+          </a>
+          <a :href="'../../static/publications/' + n.link">
+            {{ n.name }}
+          </a>
+        </div>
       </div>
-      <div v-else>
-        <a :href="n.externalLink">
-          <div v-if="n.type" class="banner" :style="convertToHex(n.type)"><strong>{{ n.type }}</strong></div>
-          <img class="news" :src="'static/img/featured_news/' + n.image" :alt="n.name">
-        </a>
-        <a :href="n.externalLink">
-          {{ n.name }}
-        </a>
-      </div>
-    </swiper-slide>
-  </swiper>
+    </div>
   </div>
-  
 </template>
 
 <script>
-  import { swiper, swiperSlide } from 'vue-awesome-swiper'
-
-  // If used in Nuxt.js/SSR, you should keep it only in browser build environment
-  if (process.browser) {
-    const VueAwesomeSwiper = require('vue-awesome-swiper/ssr')
-    Vue.use(VueAwesomeSwiper)
-  }
   export default {
-    name: 'carrousel',
     methods: {
       convertToHex: function (typeName) {
         let hash = 0
@@ -54,7 +35,6 @@
     },
     data () {
       return {
-        viewportWidth: 4,
         news: [
           {
             name: 'Drones to Grow Mind of Their Own',
@@ -130,7 +110,6 @@
             type: 'IEEE - TMM 2017'
           }
         ],
-        notNextTick: true,
         swiperOption: {
           paginationClickable: true,
           autoplay: 2000,
