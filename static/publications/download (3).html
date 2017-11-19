@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <title>EURASIP Journal on Advances in Signal Processing | Home page</title>
+
+        
+    
+        
+    
+
+
+        
+
+
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- For IE 9 and below -->
+<!--[if IE]><link rel="shortcut icon" href=/static/images/favicons/springeropen/favicon-b8d2fa6d03.ico><![endif]-->
+<!-- Touch Icons - iOS and Android 2.1+ -->
+<link rel="apple-touch-icon" href=/static/images/favicons/springeropen/favicon-3d2bd49ae0.png>
+<!-- Firefox, Chrome, Safari, IE 11+ and Opera -->
+<link rel="icon" href=/static/images/favicons/springeropen/favicon-3d2bd49ae0.png>
+        <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+        <script>(function(d) {if (sessionStorage.getItem('webfonts') == 'true'){d.className += ' webfonts-loaded';}})(document.documentElement);</script>
+        <link rel="stylesheet" media="screen" href=/static/styles/basic/basic-8a9ed7dce9.css>
+<link rel="stylesheet" media="print" href=/static/styles/springeropen/springeropen-print-1eb9afe9e3.css>
+
+<link rel="stylesheet" class="js-ctm" href=/static/styles/springeropen/springeropen-3c5ac1ce87.css
+      media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+        
+    <script type="text/javascript">
+        config = {
+            env: 'live',
+            site: 'asp-eurasipjournals.springeropen.com',
+            siteWithPath: 'asp-eurasipjournals.springeropen.com' + window.location.pathname,
+            twitterHashtag: '',
+            cmsPrefix: 'http://studio-cms.springer.com/studio/',
+            
+            
+            figshareScriptUrl: 'https://widgets.figshare.com/static/figshare.js',
+            publisherBrand: 'SpringerOpen'
+        };
+    </script>
+
+        
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+
+        (function() {
+            var sampleRate = 20;
+
+            ga('create', "UA-67036704-10", {
+                cookieDomain: 'none',
+                allowLinker: true,
+                siteSpeedSampleRate: sampleRate
+            });
+
+            ga("set", "anonymizeIp", true);
+            ga('send', 'pageview');
+
+        
+            ga('create', "UA-54492316-9", {
+                cookieDomain: 'none',
+                allowLinker: true,
+                siteSpeedSampleRate: sampleRate,
+                name: 'global'
+            });
+            ga("global.set", "anonymizeIp", true);
+            ga('global.send', 'pageview');
+            ga('set', 'transport', 'beacon');
+        
+        }())
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    
+
+        
+    
+    <link rel="canonical" href="//asp-eurasipjournals.springeropen.com/"/>
+    
+
+
+        
+        
+    <meta name="keywords" content="EURASIP Journal on Advances in Signal Processing, Quantum Information Technology, Spintronics, Signal,Image and Speech Processing"/>
+    <meta name="description" content="&lt;p&gt;EURASIP Journal on Advances in Signal Processing is a peer-reviewed open access journal published under the brand SpringerOpen. It brings science and applications together with emphasis on both practical and theoretical aspects of signal processing in new and emerging technologies. It is directed as much at the practicing engineer as at the academic researcher. EURASIP Journal on Advances in Signal Processing will highlight the extended reach and the diverse applications of signal processing and encourage a cross-fertilization of techniques. All papers should attempt to bring theory to life with practical simulations and examples. EURASIP Journal on Advances in Signal Processing employs paperless, electronic review process to foster fast and speedy turnaround in review process.&lt;/p&gt;&lt;p&gt;Application areas include (but are not limited to): communications, networking, sensors and actuators, radar and sonar, medical imaging, biomedical applications, remote sensing, consumer electronics, computer vision, pattern recognition, robotics, fiber optic sensing/transducers, industrial automation, transportation, stock market and financial analysis, seismography, avionics.&lt;/p&gt;&lt;p&gt;The average time to first decision is only 40 days&lt;/p&gt;&lt;p/&gt;"/>
+
+        
+
+        
+            
+    <script type="text/javascript">
+        dataLayer = [{"content":{"article":null,"contentInfo":{"imprint":"SpringerOpen","title":null,"publishedAt":null,"publishedAtDate":null,"author":null,"collection":null},"attributes":{"deliveryPlatform":"oscar","template":null,"cms":null,"copyright":null},"journal":{"volume":null,"issue":null,"title":"EURASIP Journal on Advances in Signal Processing","category":null,"journalID":13634,"section":null},"category":{"pmc":{"primarySubject":"Engineering"}}},"session":{"authentication":{"authenticationID":[]}}}]
+
+    </script>
+
+        
+
+        
+        
+    <meta property="og:url" content="https://asp-eurasipjournals.springeropen.com/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="EURASIP Journal on Advances in Signal Processing"/>
+    <meta property="og:title" content="EURASIP Journal on Advances in Signal Processing"/>
+    <meta property="og:description" content="&lt;p&gt;EURASIP Journal on Advances in Signal Processing is a peer-reviewed open access journal published under the brand SpringerOpen. It brings science and applications together with emphasis on both practical and theoretical aspects of signal processing in new and emerging technologies. It is directed as much at the practicing engineer as at the academic researcher. EURASIP Journal on Advances in Signal Processing will highlight the extended reach and the diverse applications of signal processing and encourage a cross-fertilization of techniques. All papers should attempt to bring theory to life with practical simulations and examples. EURASIP Journal on Advances in Signal Processing employs paperless, electronic review process to foster fast and speedy turnaround in review process.&lt;/p&gt;&lt;p&gt;Application areas include (but are not limited to): communications, networking, sensors and actuators, radar and sonar, medical imaging, biomedical applications, remote sensing, consumer electronics, computer vision, pattern recognition, robotics, fiber optic sensing/transducers, industrial automation, transportation, stock market and financial analysis, seismography, avionics.&lt;/p&gt;&lt;p&gt;The average time to first decision is only 40 days&lt;/p&gt;&lt;p/&gt;"/>
+    <meta property="og:image" content="https://images.springer.com/sgw/journals/medium/13634.jpg"/>
+
+        
+    </head>
+
+    <body class="journalhome" >
+    
+    
+        
+    
+
+    
+    <div class="container" style="height: 0"><div id="wt_refpoint"></div></div>
+    <p class="skip-to-main">
+    <a class="skip-to-main__link" href="#main">Skip to main content</a>
+</p>
+
+    <div id="top">
+        
+
+        
+    <div id="membership-message-loader-desktop" class="placeholder" data-placeholder="/placeholder/v1/membership/message"></div>
+    <header class="header" role="banner">
+        <div class="masthead">
+            <div class="container">
+                <a class="logo" href="//www.springeropen.com">
+                    <img srcset="/static/images/springer-open-logo-fa412eee6e.svg" src="/static/images/springer-open-logo-92fd87c1ea.png" class="logo__img" alt="Springer Open logo"/>
+                </a>
+                <div class="masthead__right">
+                    <div class="toggles js-fade-toggle">
+                        <p id="loginLink" class="sign-in toggles__item" data-replace="true" data-placeholder="/placeholder/v1/username">
+    <a class="sign-in__link" href="//www.springeropen.com/login" data-track-event="click" data-event-category="Account" data-event-action="Click Login Link">
+        <span class="sign-in__no-js-account-hide">Login
+            <span class="sign-in__js-account-hide"> to </span>
+        </span>
+        <span class="sign-in__js-account-hide sign-in__no-js-capitalise">your account</span>
+    </a>
+</p>
+                        <a href="#globalNavigation" class="toggles__item toggles__item--menu" data-toggle="menu"><span class="sr-only">Publisher Main </span>Menu</a>
+                        <a href="#globalSearch" class="toggles__item toggles__item--search" data-toggle="search"><span class="sr-only">Search</span></a>
+                    </div>
+                    <form role="search" id="globalSearch" class="search search--expandable header__search" method="GET" action="//www.springeropen.com/search" data-track-event="submit"
+      data-event-category="Search and Results" data-event-action="Submit search" data-event-label="">
+    <div class="search__content">
+        <label for="globalSearchInput" class="sr-only">Search</label>
+        <input id="globalSearchInput" class="search__input" autocomplete="off" role="textbox" name="query" type="text" value="" placeholder="Search SpringerOpen articles"/>
+        <button id="searchButton" class="search__button" type="submit">
+            <span class="sr-only">Search</span>
+        </button>
+        <input type="hidden" name="searchType" value="publisherSearch"/>
+    </div>
+</form>
+                </div>
+            </div>
+        </div>
+        
+    <nav id="globalNavigation" class="global-nav" role="navigation" aria-label="publisher">
+        <div class="global-nav__inner">
+            <h2 class="sr-only">Publisher main menu</h2>
+            <ul id="publisherNavigation" class="global-nav__list">
+                
+                <li>
+                    <a class="" href="//www.springeropen.com/get-published"><span class="global-nav__text">Get published</span></a>
+                </li>
+                
+                <li>
+                    <a class="" href="//www.springeropen.com/journals"><span class="global-nav__text">Explore Journals</span></a>
+                </li>
+                
+                <li>
+                    <a class="" href="//www.springeropen.com/about"><span class="global-nav__text">About</span></a>
+                </li>
+                
+                <li>
+                    <a class="" href="//www.springeropen.com/books"><span class="global-nav__text">Books</span></a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+
+    </header>
+
+
+        <main role="main">
+            
+            
+            
+            <div class="identity u-marginBtmL">
+                <div class="identity__background">
+                    <div class="container">
+                        <div class="identity__inner">
+                            <div class="identity__main">
+                                <header class="identity__header">
+                                    <h2 class="identity__title" id="journalTitle"><a href="/">EURASIP Journal on Advances in Signal Processing</a></h2>
+                                    
+                                </header>
+                                
+<p class="impact-factor">
+    <span class="impact-factor__label">Impact Factor</span> <span class="impact-factor__value">1.961</span>
+</p>
+
+
+                                <nav class="identity__nav" role="navigation">
+                                    <ul class="identity__tabs tabs" id="siteNavigation" role="menu">
+                                        
+                                        <li class="tabs__item" role="menuitem">
+                                            <a class="identity__nav-link tabs__link" href='/about'>About</a>
+                                        </li>
+                                        
+                                        <li class="tabs__item" role="menuitem">
+                                            <a class="identity__nav-link tabs__link" href='/articles'>Articles</a>
+                                        </li>
+                                        
+                                        <li class="tabs__item" role="menuitem">
+                                            <a class="identity__nav-link tabs__link" href='/submission-guidelines'>Submission Guidelines</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </nav>
+                            </div>
+                            
+                            <div class="identity__cover">
+                                <a class="identity__cover-link" href="/"><img id="coverImage" src="https://images.springer.com/sgw/journals/medium/13634.jpg" alt="EURASIP Journal on Advances in Signal Processing Cover Image"/></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <div class="container">
+                <div id="main" class="layout">
+                    
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+
+
+
+                    <div class=" layout__main--wide" id="main-content">
+                        <div class="block" id="Test-ImgSrc">
+                            
+    
+        
+<div class="CmsItem CmsCollection CmsCollection--leftBias" data-fragment="776586">
+    
+
+    
+    <div class="Column">
+    <div class="CmsItem CmsCollection"  data-fragment="776582">
+        
+        
+            
+<div class="CmsItem CmsCollection" data-tabs="tabs" data-fragment="776580">
+    <h2>Articles</h2>
+    <ul class="tabs" role="tablist">
+        
+            
+            <li role="presentation" class="tabs__item is-shown">
+                <a class="tabs__link" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">Recent</a>
+            </li>
+            
+        
+            
+            <li role="presentation" class="tabs__item ">
+                <a class="tabs__link" href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">Most accessed</a>
+            </li>
+            
+        
+    </ul>
+    <div class="tab-content">
+        
+            
+        <div role="tabpanel" class="tab-content__view is-shown" id="tab-1">
+            
+    <div class="placeholder placeholder-articleList" data-test="recent-articles">
+        
+        <div class="PlaceholderRss">
+            <a class="RssLabel" href="/articles/most-recent/rss.xml" target="_blank" data-test="recent-articles-feed">
+                <span class="RssLabel_label">Recent articles RSS</span>
+            </a>
+        </div>
+        <div id="search-container" class="Results" data-total="3435">
+    <ol class="ResultsList ResultsList--beta">
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Latest Articles"
+                           data-event-action="Click Title" data-event-label="10.1186/s13634-017-0500-1"
+                           href="/articles/10.1186/s13634-017-0500-1" class="fulltexttitle">UWB pulse detection and TOA estimation using GLRT</a>
+                    </h3>
+                    <p class="ResultsList_authors">Yan Xie, Gerard J.M. Janssen, Siavash Shakeri and Christiaan C.J.M. Tiberius</p>
+                    <p class="ResultsList_published">Published on: 19 September 2017</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Latest Articles"
+                           data-event-action="Click Title" data-event-label="10.1186/s13634-017-0502-z"
+                           href="/articles/10.1186/s13634-017-0502-z" class="fulltexttitle">An adaptive dynamically weighted median filter for impulse noise removal</a>
+                    </h3>
+                    <p class="ResultsList_authors">Sajid Khan and Dong-Ho Lee</p>
+                    <p class="ResultsList_published">Published on: 18 September 2017</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Latest Articles"
+                           data-event-action="Click Title" data-event-label="10.1186/s13634-017-0501-0"
+                           href="/articles/10.1186/s13634-017-0501-0" class="fulltexttitle">Approximate equiangular tight frames for compressed sensing and CDMA applications</a>
+                    </h3>
+                    <p class="ResultsList_authors">Evaggelia Tsiligianni, Lisimachos P. Kondi and Aggelos K. Katsaggelos</p>
+                    <p class="ResultsList_published">Published on: 15 September 2017</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Latest Articles"
+                           data-event-action="Click Title" data-event-label="10.1186/s13634-017-0499-3"
+                           href="/articles/10.1186/s13634-017-0499-3" class="fulltexttitle">Sequential estimation of intrinsic activity and synaptic input in single neurons by particle filtering with optimal importance density</a>
+                    </h3>
+                    <p class="ResultsList_authors">Pau Closas and Antoni Guillamon</p>
+                    <p class="ResultsList_published">Published on: 15 September 2017</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Latest Articles"
+                           data-event-action="Click Title" data-event-label="10.1186/s13634-017-0503-y"
+                           href="/articles/10.1186/s13634-017-0503-y" class="fulltexttitle">DOA estimation for conformal vector-sensor array using geometric algebra</a>
+                    </h3>
+                    <p class="ResultsList_authors">Tianzhen Meng, Minjie Wu and Naichang Yuan</p>
+                    <p class="ResultsList_published">Published on: 13 September 2017</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+    </ol>
+</div>
+
+        <p class="ViewAll">
+            <a href="/articles" class="LinkArrow LinkArrow--right">View all articles</a>
+        </p>
+        
+    </div>
+
+        </div>
+            
+        
+            
+        <div role="tabpanel" class="tab-content__view " id="tab-2">
+            
+    
+    <div class="placeholder placeholder-articleList" data-test="most-accessed-articles">
+        <div class="PlaceholderRss">
+            <a class="RssLabel" href="/articles/most-accessed/rss.xml" target="_blank" data-test="most-accessed-feed">
+                <span class="RssLabel_label">Most accessed articles RSS</span>
+            </a>
+        </div>
+        <div id="search-container" class="Results" data-total="5">
+    <ol class="ResultsList ResultsList--beta">
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Most accessed"
+                           data-event-action="Click Title" data-event-label="10.1186/1687-6180-2013-118"
+                           href="/articles/10.1186/1687-6180-2013-118" class="fulltexttitle">Acceleration of block-matching algorithms using a custom instruction-based paradigm on a Nios II microprocessor</a>
+                    </h3>
+                    <p class="ResultsList_authors">Diego González, Guillermo Botella, Carlos García, Manuel Prieto and Francisco Tirado</p>
+                    <p class="ResultsList_published">Published on: 16 June 2013</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Most accessed"
+                           data-event-action="Click Title" data-event-label="10.1186/1687-6180-2011-29"
+                           href="/articles/10.1186/1687-6180-2011-29" class="fulltexttitle">The Vienna LTE simulators - Enabling reproducibility in wireless communications research</a>
+                    </h3>
+                    <p class="ResultsList_authors">Christian Mehlführer, Josep Colom Ikuno, Michal Šimko, Stefan Schwarz, Martin Wrulich and Markus Rupp</p>
+                    <p class="ResultsList_published">Published on: 25 July 2011</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Most accessed"
+                           data-event-action="Click Title" data-event-label="10.1186/1687-6180-2013-54"
+                           href="/articles/10.1186/1687-6180-2013-54" class="fulltexttitle">Single-user MIMO versus multi-user MIMO in distributed antenna systems with limited feedback</a>
+                    </h3>
+                    <p class="ResultsList_authors">Stefan Schwarz, Robert W Heath Jr and Markus Rupp</p>
+                    <p class="ResultsList_published">Published on: 19 March 2013</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Research Article</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Most accessed"
+                           data-event-action="Click Title" data-event-label="10.1155/2011/515084"
+                           href="/articles/10.1155/2011/515084" class="fulltexttitle">Multiresolution Decomposition Schemes Using the Parameterized Logarithmic Image Processing Model with Application to Image Fusion</a>
+                    </h3>
+                    <p class="ResultsList_authors">Shahan C. Nercessian, Karen A. Panetta and Sos S. Agaian</p>
+                    <p class="ResultsList_published">Published on: 11 October 2010</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+        <li class="ResultsList_item">
+            <article>
+                <p class="ResultsList_type">Review</p>
+                <div class="ResultsList_group">
+                    <h3 class="ResultsList_title">
+                        <a data-track-event="click" data-event-category="Most accessed"
+                           data-event-action="Click Title" data-event-label="10.1186/1687-6180-2013-176"
+                           href="/articles/10.1186/1687-6180-2013-176" class="fulltexttitle">Human detection in surveillance videos and its applications - a review</a>
+                    </h3>
+                    <p class="ResultsList_authors">Manoranjan Paul, Shah M E Haque and Subrata Chakraborty</p>
+                    <p class="ResultsList_published">Published on: 22 November 2013</p>
+                    
+
+                </div>
+            </article>
+        </li>
+        
+    </ol>
+</div>
+
+        <p class="ViewAll">
+            <a href="/articles" class="LinkArrow LinkArrow--right">View all articles</a>
+        </p>
+    </div>
+    
+
+        </div>
+            
+        
+    </div>
+</div>
+
+
+        
+            <div class="CmsItem CmsArticle" data-fragment="7355714">
+    <h2>Special Issues</h2>
+    <div class="CmsArticle_body">
+        <p><a href="//www.springeropen.com/collections/nsipsicuranza" target="_self">Nonlinear Signal and Image Processing - A Special Issue in Honour of Giovanni L. Sicuranza on his Seventy-Fifth Birthday</a><br/>Collection published: 5 August 2016<br/></p><p class="divider--paragraph"><br/></p><p><a href="//www.springeropen.com/collections/spbd" target="_self">Signal Processing for Big Data</a><br/>Collection published: 27 May, 2016</p><p class="divider--paragraph"><br/></p><p><a href="//www.springeropen.com/collections/rammimos" target="_self">Recent Advances in Massive MIMO Systems</a><br/>Collection published: 13 April, 2016</p><p class="divider--paragraph"><br/></p><p><a href="http://www.springeropen.com/collections/RAEFNDS" target="_self" class="is-external">Recent advances on estimation and filtering in networked dynamic systems</a><br/>Collection published: 11 April, 2016<br/></p><p class="divider--paragraph"><br/></p><p><a href="/articles/collections" target="_self">View all special issues </a><br/></p>
+    </div>
+</div>
+        
+            <div class="CmsItem CmsArticle" data-fragment="7355732">
+    <h2>Open special issues</h2>
+    <div class="CmsArticle_body">
+        <p><a href="/olan" target="_blank">Optimization, Learning, and Adaptation over Networks</a><br/>Deadline for submissions: 31st December 2017</p><p class="divider--paragraph"><br/></p><p><a href="/nl" target="_blank">Network Localization</a><br/>Deadline for submissions: 31st October 2017<br/></p><p class="divider--paragraph"><br/></p><p><a href="/biomedical-informatics-with-optimization-and-machine-learning-" target="_self">Biomedical Informatics with Optimization and Machine Learning </a><br/>Deadline for Submissions: 1st October 2017</p><p><br/></p>
+    </div>
+</div>
+        
+    </div>
+
+</div>
+    
+    <div class="Column">
+    <div class="CmsItem CmsCollection"  data-fragment="776584">
+        
+        
+            <div class="CmsItem CmsItem--video" data-fragment="7448758">
+    
+    <iframe class="video-placement" width="560" height="315" title="Call for papers" src="https://www.youtube.com/embed/81hr7jrO0KY" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    
+</div>
+
+        
+            
+        
+        <div id="aimsAndScope" class="CmsItem placeholder placeholder-aimsAndScope">
+            <h2>Aims and scope</h2>
+            <div class="placeholder-aimsAndScope_content"><p>The aim of the <i>EURASIP Journal on Advances in Signal Processing</i> is to highlight the theoretical and practical aspects of signal processing in new and emerging technologies. The journal is directed as much at the practicing engineer as at the academic researcher. Authors of articles with novel contributions to the theory and/or practice of signal processing are welcome to submit their articles for consideration. All manuscripts undergo a rigorous review process. <i>EURASIP Journal on Advances in Signal Processing</i> employs a paperless, electronic review process to enable a fast and speedy turnaround in the review process.</p><p>The journal is an Open Access journal since 2007.</p></div>
+        </div>
+        
+    
+        
+            <div class="CmsItem CmsArticle" data-fragment="10197972">
+    <h2>EURASIP Best paper awards 2017</h2>
+    <div class="CmsArticle_body">
+        <p>We are pleased to announce that the following paper published in <em class="journalName">EURASIP Journal on Advances in Signal Processing</em> has been awarded a EURASIP best paper award!</p><p class="divider--paragraph"><br/></p><p><sub>Research</sub><br/><a href="http://asp.eurasipjournals.springeropen.com/articles/10.1186/1687-6180-2012-6" target="_blank" class="is-external">Universal and efficient compressed sensing by spread spectrum and application to realistic Fourier imaging techniques</a><br/>Gilles Puy, Pierre Vandergheynst, Rémi Gribonval and Yves Wiaux<br/></p><p class="divider--paragraph"><br/></p><p>The award ceremony will take place at EUSIPCO 2017 in Greece. For more information see the <a href="http://www.eurasip.org/newsletter/newsletter_2016-01a.html" target="_self" class="is-external">EURASIP newsle</a><a href="http://www.eurasip.org/newsletter/newsletter_2016-01a.html" target="_self" class="is-external">tter.</a></p>
+    </div>
+</div>
+        
+            <div class="CmsItem CmsArticle" data-fragment="10042664">
+    <h2>NEW blog series about SpringerOpen EURASIP journals</h2>
+    <div class="CmsArticle_body">
+        <p><em><img alt="" title="" src="//resource-cms.springer.com/springer-cms/rest/v1/content/10042670/data/v1"/></em><br/>In a series of blog posts, we’d like to provide you with some exciting insights into the 7 open access signal processing <a href="http://www.springer.com/gp/marketing/eurasip?wt_mc=Other.Other.2.CON426.EURASIP_video_promo_Jrnl%20websites" class="is-external">journals</a> that SpringerOpen publishes together with EURASIP. You will find interviews with the journals’ Editors-in-Chief, with leaders of the society, you will hear more about the special issues that these journals publish on hot topics, along with useful tips for your manuscript submission and more. <em><a href="http://blogs.springeropen.com/springeropen/tag/eurasip-series/?utm_source=Internal&amp;utm_medium=Other&amp;utm_campaign=EURASIP_blog%20_series_promo_jrnl_websites" class="is-external">Read the blog here</a>. </em></p>
+    </div>
+</div>
+        
+            <div class="CmsItem CmsArticle" data-fragment="6644134">
+    <h2>Society affiliation</h2>
+    <div class="CmsArticle_body">
+        <p>The European Association for Signal Processing (EURASIP) was founded on 1 September 1978 to improve communication between groups and individuals that work within the multidisciplinary, fast growing field of signal processing in Europe and elsewhere, and to exchange and disseminate information in this field all over the world. The association exists to further the efforts of researchers by providing a learned and professional platform for dissemination and discussion of all aspects of signal processing including continuous- and discrete-time signal theory, applications of signal processing, systems and technology, speech communication, and image processing and communication.<br/>EURASIP members are entitled to a 10% discount on the article-processing charge. To claim this discount, the corresponding author must enter the membership code when prompted. This can be requested from their EURASIP representative.</p>
+    </div>
+</div>
+        
+            <div class="CmsItem CmsArticle" data-fragment="7355708">
+    <h2>Call for special issues</h2>
+    <div class="CmsArticle_body">
+        <p><em>EURASIP Journal on Advances in Signal Processing</em> welcomes proposals for Special Issues. After acceptance, the Guest editors will be responsible for the content of the Special Issue. Please download the Proposal form <a href="http://resource-cms.springer.com/springer-cms/rest/v1/content/13353626/data/v2/New+Content+Item" target="_blank" class="is-external">here</a>. Proposals should be directed to <a href="mailto:g.j.t.leus@tudelft.nl">g.j.t.leus@tudelft.nl</a>.</p>
+    </div>
+</div>
+        
+    </div>
+
+</div>
+    
+</div>
+
+
+    
+
+
+
+                            <div id="RealMediaMPU" class="adsbox RealMediaAd CmsItem Ad Ad--mpu" data-position="Middle">
+                                <div class="Ad_content">
+                                    <p class="Ad_label">Advertisement</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layout__sidebar-right">
+                        <div class="block">
+                            
+    
+        
+        
+        <div class="SideBox SideBox--submission">
+            <a id="linkToSubmissionInSidebar" class="SideBox_submit" data-track-event="click"
+               data-event-category="Sidebar" data-event-action="Click submit a manuscript"
+               data-event-label="EURASIP Journal on Advances in Signal Processing"
+               href='https://www.editorialmanager.com/jsig'>Submit a manuscript</a>
+        </div>
+        
+    
+    
+        
+<div class="SideBox" data-fragment="776578">
+    
+    <ul class="list-stacked list-stacked--2 list-stacked--small">
+        
+        <li class="list-stacked__item">
+            
+<a class="teaser-placement"  href="/about/editorial-board">Editorial Board</a>
+
+
+
+
+        </li>
+        
+        <li class="list-stacked__item">
+            
+            <a href="https://www.springeropen.com/add-article-alert?journalId&#x3D;13634"
+                   data-track-event="click"
+                   data-event-category="Journal sidebar"
+                   data-event-action="Sign up for article alerts"
+                   data-event-label="EURASIP Journal on Advances in Signal Processing">
+                Sign up to article alerts
+            </a>
+        
+        </li>
+        
+    </ul>
+</div>
+
+
+    
+        
+        
+        <div id="sociaMediaAccounts" class="SideBox">
+            <h3 class="SideBox_title">Follow</h3>
+            <ul class="follow follow--inline">
+                
+                <li class="follow__item">
+                    <a class="follow__link follow__link--twitter-2" href="https://twitter.com/Springer_Eng" data-track-event="click" data-event-category="Social Media"
+                       data-event-action="Click Follow Social Media" data-event-label="Twitter">
+                        <span class="follow__label">Follow us on Twitter</span>
+                    </a>
+                </li>
+                
+
+                
+
+                
+            </ul>
+        </div>
+        
+    
+    
+        
+<div class="SideBox">
+    <div class="associated" data-fragment="$map.cmsId$">
+        
+        <h3 class="associated__title">Associated Society</h3>
+        
+
+        <ul class="associated__list">
+            
+            <li class="associated__list-item"><div class="CmsItem CmsArticle cleared" data-fragment="7490838">
+    <div class="CmsArticle_body cleared">
+        <p><img alt="" title="" src="//resource-cms.springer.com/springer-cms/rest/v1/content/7448852/data/v1"/><br/></p><p><a href="http://www.eurasip.org/" target="_blank" class="is-external">EURASIP – European Association for Signal Processing</a></p>
+    </div>
+</div>
+</li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+        <div class="CmsItem CmsArticle" data-fragment="12489760">
+    <h2>Funding your APC</h2>
+    <div class="CmsArticle_body">
+        <h3>​​​​​​​<a href="https://www.springeropen.com/about/oa-funding-and-policy-support?utm_source=website&amp;utm_medium=Display_Banners&amp;utm_campaign=SpringerOpenOAFundingSupportJournalPages" target="_blank" class="is-external"><img alt="Open access funding and policy support by SpringerOpen" title="Open access funding and policy support by SpringerOpen" src="//resource-cms.springer.com/springer-cms/rest/v1/content/12351912/data/v5"/>​​</a></h3><p><a href="https://www.springeropen.com/about/oa-funding-and-policy-support?utm_source=website&amp;utm_medium=Display_Banners&amp;utm_campaign=SpringerOpenOAFundingSupportJournalPages" target="_blank" class="is-external">​​​​</a>We offer a free open access support service to make it easier for you to discover and apply for article-processing charge (APC) funding. Learn more <a href="https://www.springeropen.com/about/oa-funding-and-policy-support?utm_source=website&amp;utm_medium=Display_Banners&amp;utm_campaign=SpringerOpenOAFundingSupportJournalPages" target="_blank" class="is-external"><em>here</em></a>. <br/></p><p><br/></p>
+    </div>
+</div>
+    
+        
+        <div class="SideBox">
+            <ul class="SideBox_list list-stacked list-stacked--small list-stacked--2">
+                <li class="list-stacked__item">ISSN: 1687-6180</li>
+            </ul>
+        </div>
+    
+    
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        
+    <footer id="Test-FooterExists">
+        <div class="footer">
+            <div class="footer__inner">
+                
+    <nav id="publisherFooter" class="footer__nav">
+        <h3 class="footer__menu-title">Publisher secondary menu</h3>
+        <div class="footer__nav-inner">
+            
+            <div class="footer__menu">
+                <ul class="footer__list">
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="//www.springeropen.com/about/contact-us">Contact us</a>
+                        
+                    </li>
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="//www.springeropen.com/about/jobs">Jobs</a>
+                        
+                    </li>
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="http://authorservices.springernature.com/language-editing/">Language editing for authors</a>
+                        
+                    </li>
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="http://authorservices.springernature.com/scientific-editing/">Scientific editing for authors</a>
+                        
+                    </li>
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="https://biomedcentral.typeform.com/to/VLXboo">Leave feedback</a>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="footer__menu">
+                <ul class="footer__list">
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="//www.springeropen.com/terms-and-conditions">Terms and conditions</a>
+                        
+                    </li>
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="//www.springeropen.com/privacy-statement">Privacy statement</a>
+                        
+                    </li>
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="//www.springeropen.com/accessibility">Accessibility</a>
+                        
+                    </li>
+                    
+                    <li class="footer__item">
+                        <a class="footer__link" href="//www.springeropen.com/cookies">Cookies</a>
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="footer__menu footer__menu--follow">
+                <div class="footer__follow">
+                    <h3 class="footer__follow-title">Follow Springer Open</h3>
+                    <ul class="follow follow--inline">
+                    
+                        <li class="footer__follow-item follow__item">
+                            <a class="follow__link follow__link--twitter" href="https://twitter.com/springeropen" target="_blank" data-track-event="click" data-event-category="Social Media" data-event-action="Click Follow Social Media" data-event-label="Twitter">
+                                <span class="follow__label">Twitter</span>
+                            </a>
+                        </li>
+                    
+                        <li class="footer__follow-item follow__item">
+                            <a class="follow__link follow__link--facebook" href="https://www.facebook.com/SpringerOpn" target="_blank" data-track-event="click" data-event-category="Social Media" data-event-action="Click Follow Social Media" data-event-label="Facebook">
+                                <span class="follow__label">Facebook</span>
+                            </a>
+                        </li>
+                    
+                        <li class="footer__follow-item follow__item">
+                            <a class="follow__link follow__link--gplus" href="https://plus.google.com/+Springeropen/posts" target="_blank" data-track-event="click" data-event-category="Social Media" data-event-action="Click Follow Social Media" data-event-label="Google Plus">
+                                <span class="follow__label">Google Plus</span>
+                            </a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+                <div class="footer__legal">
+                    
+                    <p class="footer__terms">
+                        By continuing to use this website, you agree to our <a href="//www.springeropen.com/terms-and-conditions">Terms and Conditions</a>, <a
+                            href="//www.springeropen.com/privacy-statement">Privacy
+                        statement</a> and <a href="//www.springeropen.com/cookies">Cookies</a> policy.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="branding-bar">
+            <div class="logo branding-bar__logo">
+                <img srcset="/static/images/logo-springernature-4230d19d5c.svg" src="/static/images/logo-springernature-828f4f84c8.png" class="logo__img branding-bar-logo__img" alt="Springer Nature Logo" />
+            </div>
+            <p class="branding-bar__copyright">&#169; 2017 BioMed Central Ltd unless otherwise stated. Part of <a class="branding-bar__link" href="http://www.springernature.com">Springer Nature</a>.</p>
+        </div>
+    </footer>
+    <noscript class="js-cookie-banner-noscript">
+        <div class="cookie-banner js-cookie-banner">
+            <div class="cookie-banner__inner">
+                <p class="cookie-banner__message">
+                    We use cookies to improve your experience with our site.
+                    <a href="https://www.springeropen.com/cookies"
+                       class="cookie-banner__link"
+                       data-track-event="click"
+                       data-event-category="EU Cookie Law Banner"
+                       data-event-action="Find out more">More information <span class="sr-only">about our cookie policy</span>
+                    </a>
+                </p>
+                <button hidden class="cookie-banner__dismiss js-cookie-banner-dismiss"
+                        data-track-event="click"
+                        data-event-category="EU Cookie Law Banner"
+                        data-event-action="Close"><span class="cookie-banner__dismiss-text">Close</span>
+                </button>
+            </div>
+        </div>
+</noscript>
+
+
+    </div>
+    <div id="JHome"></div>
+    
+
+    
+<script>
+(function() {
+    var linkEl = document.querySelector('.js-ctm');
+    if (linkEl && window.matchMedia && window.matchMedia(linkEl.media)) {
+        var vendorScript = document.createElement('script');
+        vendorScript.src = '/static/js/oscar-vendor-67103b4f35.js';
+        vendorScript.async = false;
+        document.body.appendChild(vendorScript);
+        var appScript = document.createElement('script');
+        appScript.src = '/static/js/oscar-app-24ab0988bd.js';
+        appScript.async = false;
+        document.body.appendChild(appScript);
+    }
+})();
+</script>
+
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+
+
+
+    
+        <script type="text/javascript">
+            document.addEventListener('readystatechange', function () {
+                if (document.readyState === 'complete') {
+                    setTimeout(function () {
+                        var script = document.createElement("script");
+                        script.type = "text/javascript";
+                        script.src = "https://recommended.springernature.com/latest/entry-point.js";
+                        document.getElementsByTagName("head")[0].appendChild(script);
+                    }, 0);
+                }
+            });
+        </script>
+    
+
+
+    <script type="text/javascript">
+        var _kiq = _kiq || [];
+        (function () {
+            setTimeout(function () {
+                var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = '//s3.amazonaws.com/ki.js/47412/9CC.js';
+                f.parentNode.insertBefore(s, f);
+            }, 1);
+            setTimeout(function () {
+                var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = '//s3.amazonaws.com/ki.js/47412/aC6.js';
+                f.parentNode.insertBefore(s, f);
+            }, 1);
+        })();
+    </script>
+
+
+<noscript>
+	<img hidden src="https://verify.nature.com/verify/nature.png" border="0" width="0" height="0" style="display: none">
+</noscript>
+
+</body>
+</html>
+

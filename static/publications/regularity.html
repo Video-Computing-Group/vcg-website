@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mahmudul Hasan</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="Mahmudul Hasan"/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="./css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="./js/jquery-latest.js"></script>
+<script type="text/javascript" src="./js/readmore.js"></script>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+.comment {
+	width: 100%;
+	float: right;
+	background-color: #f0f0f0;
+	margin: 0px;
+	font-style: italic;
+}
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+}
+
+#mainArea h2{
+	font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #bb3333;
+	padding-bottom: 5px;
+}
+
+</style>
+
+</head>
+<body id="top">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="cv" class="instaFade">
+	<div id="mainDetails">
+		<iframe src="header.html" scrolling=no width=100% height=130px></iframe>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="headLinks">
+		<a href="index.html">Home</a>
+		<a href="index.html#education">Education</a>
+		<a href="index.html#works">Experience</a>
+		<a href="index.html#research">Research</a>
+		<a href="publications.html">Publications</a>
+		<a href="index.html#random">Random</a>
+		<a href="./cv/cv_hasan.pdf">CV</a>
+		
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<div class="sectionTitle">
+				<h1>Title and Abstract</h1>
+			</div>
+			
+			<div class="sectionContent" style="text-align: center;">
+				<article>
+				<a name="incr"></a>
+					<h2> Learning Temporal Regularity in Video Sequences</h2>
+
+					<h3> Mahmudul Hasan, Jonghyun Choi, Jan Neumann, Amit K. Roy-Chowdhury, and Larry Davis</h3> 
+					<br>
+
+					Perceiving meaningful activities in a long video sequence is a challenging problem due to ambiguous definition of `meaningfulness' as well as noise and clutter in the scene.
+To address the problem under such difficulties, we approach it as a problem of learning regular patterns using multiple sources with very limited supervision. % requiring training videos of regular scenes.
+Specifically, we propose an approach that builds upon an autoencoder because of its ability to work with little to no supervision.
+We first leverage upon the conventional spatio-temporal local features and learn an autoencoder.
+Then, we build a fully convolutional autoencoder to learn both the local features and the classifiers in a single framework.
+We evaluate our method in both qualitative and quantitative ways; showing the learned regularity of videos in various aspects and demonstrating competitive performance on anomaly detection datasets as an application.
+					
+				</article>
+				<div class="clear"></div>
+				<div style="width:100%; height: 200px; float:left; text-align:center; padding:30px 10px;" >
+					<figure>
+						 <img src="./images/2016cvpr/framework.jpg" width="100%" height="200px"/>
+						<figcaption> Overall framework </figcaption>
+					</figure>
+				</div>
+				<div class="clear"></div>
+				<div style="width:60%; float:left; text-align:center; padding:30px 10px;" >
+					<figure>
+						 <img src="./images/2016cvpr/teaser.jpg" width="100%"/>
+						<figcaption>Regularity Scores.</figcaption>
+					</figure>
+				</div>
+				<div class="clear"></div>
+				<div style="width:70%; float:left; text-align:center; padding:30px 10px;" >
+					<figure>
+						 <img src="./images/2016cvpr/conv_autoencoder_l3.jpg" width="100%"/>
+						<figcaption>Fully convolutional autoencoder.</figcaption>
+					</figure>
+				</div>
+				<div class="clear"></div>
+			</div>	
+						
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Downloads</h1>
+			</div>
+			<div class="sectionContent">
+				<article>
+					Will be updated soon with codes and instructions...
+					<a href="./papers/cvpr2016_regularity.pdf" style="text-decoration:none"> <h2> Paper </h2> </a>
+					<a href="./papers/cvpr2016_regularity_supps.pdf" style="text-decoration:none"> <h2> Supplementary </h2> </a>
+					<a href="https://github.com/mhasa004/caffe" style="text-decoration:none"> <h2> Codes </h2> </a>
+					<a href="https://drive.google.com/drive/u/0/folders/0B7gqi2vg-71pRjFoV3FiMEc1cHM" style="text-decoration:none"> <h2> Data and Codes </h2> (If you don't see the files inside the folders, please open in incognito mood.)</a>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Videos</h1>
+			</div>
+			<div class="sectionContent">
+					<iframe width="560" height="415" src="https://www.youtube.com/embed/RQ7dg6wCrQc" frameborder="0" allowfullscreen></iframe>
+
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/UXEndaBFq6s" frameborder="0" allowfullscreen></iframe>
+					
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Bibliography</h1>
+			</div>
+			<div class="sectionContent">
+			<font face="courier" size="2">
+				<article>
+					<pre>@inproceedings{hasan2015context,
+  	title={Learning Temporal Regularity in Video Sequences},
+  	author={Hasan, Mahmudul and Choi, Jonghyun and Neumann, jan and 
+  	Roy-Chowdhury, Amit K and Davis, Larry},
+  	booktitle={Proceedings of IEEE Computer Vision and Pattern Recognition},
+  	year={2016}
+}					</pre>
+				</article>
+			</font>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+	
+	<div id="footer">
+		<center>
+			<a href="index.html">Home</a>
+			<a href="index.html#education">Education</a>
+			<a href="index.html#works">Experience</a>
+			<a href="index.html#research">Research</a>
+			<a href="publications.html">Publications</a>
+			<a href="index.html#random">Random</a>
+		</center>
+	</div>
+</div>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11092893; 
+var sc_invisible=1; 
+var sc_security="23482226"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify stats"
+href="http://statcounter.com/shopify/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11092893/0/23482226/1/"
+alt="shopify stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>
