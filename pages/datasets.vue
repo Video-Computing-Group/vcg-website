@@ -10,10 +10,10 @@
                 <p><strong>Please refer to the following article when using this dataset:</strong><br/>
                 <small>G. Denina, B. Bhanu, H. Nguyen, C. Ding, A. Kamal, C. Ravishankar, A. Roy-Chowdhury, A. Ivers, and B. Varda, "VideoWeb Dataset for Multi-camera Activities and Non-verbal Communication", in Distributed Video Sensor Networks (Eds. B. Bhanu, C. Ravishankar, A. Roy-Chowdhury, H. Aghajan, D. Terzopoulos), Springer 2010.
                 This data collection was partially supported by the Aware Building project under ONR-N00014-07-C-0311 and ARO grant W911NF-07-1-0485.</small></p>
-                <a class="btn btn-info" href="../../static/datasets/scene1.mpg">Sample Scene 1</a>
-                <a class="btn btn-info" href="../../static/datasets/scene2.mpg">Sample Scene 2</a>
-                <a class="btn btn-info" href="../../static/datasets/scene3.mpg">Sample Scene 3</a>
-                <a class="btn btn-info" href="../../static/datasets/scene4.mpg">Sample Scene 4</a>
+                <a class="btn btn-primary" href="../../static/datasets/scene1.mpg">Sample Scene 1</a>
+                <a class="btn btn-primary" href="../../static/datasets/scene2.mpg">Sample Scene 2</a>
+                <a class="btn btn-primary" href="../../static/datasets/scene3.mpg">Sample Scene 3</a>
+                <a class="btn btn-primary" href="../../static/datasets/scene4.mpg">Sample Scene 4</a>
             </div>
 
             <div class="col-md-6 dataset">

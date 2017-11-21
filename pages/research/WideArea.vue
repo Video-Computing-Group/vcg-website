@@ -4,10 +4,12 @@
         <div class="container row">
           <div class="col-md-12">
               <h2 id="name">Wide Area Scene Analysis in Vision Network</h2>
-              <video width="100%" controls>
-                  <source src="/img/research/Tracking_results.mp4" type="video/mp4">
-                  Your browser does not support HTML5 video
-              </video>
+              <center>
+                <video id="video" width="60%" controls>
+                    <source src="/img/research/Tracking_results.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video
+                </video>
+              </center>
                 <p>
                     Networks of cameras are nowadays installed in various places. However, most of the data collected by such networks are analyzed manually, thus severely limiting their application. In this research, which is divided into different sub-projects, we are studying the core scientific and technical issues related to camera networks, such as information fusion, network control, activity analysis, the interplay between networking and computer vision, and computational complexity. 
                 </p>

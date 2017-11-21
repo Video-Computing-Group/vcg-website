@@ -157,6 +157,9 @@ hr {
 
   .btn {
       border-radius: 0px;
+      margin-right: 5px;
+      margin-left: 2px;
+      margin-bottom: 2px;
   }
   
   .btn-primary {
@@ -194,7 +197,7 @@ hr {
   }
 
   .research-img {
-      width: 75%;
+      width: 35%;
       margin-bottom: 10px;
       margin-top: 10px;
       display: block;

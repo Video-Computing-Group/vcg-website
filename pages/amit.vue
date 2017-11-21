@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="container">
-            <h2>Teachings</h2>
+            <h2>Teaching</h2>
 
             <ul>
                 <li :key="t.name" v-for="t in teachings">{{ t.number }} - {{ t.name }} ({{ t.type }})</li>

@@ -22,21 +22,21 @@
                   <li><a href="/img/research/AQVT.zip">Matlab code for cell-resolution 3D reconstruction</a></li>
                   <li><a href="/img/research/celltracking.php">Matlab code for "local graph" based cell tracking</a></li>
                 </ul>
-              </div>
+              
 
-              <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showBioPublications = !showBioPublications">Toggle</button></h4>
-
-                <ul class="list-group" v-show="showBioPublications">
-                    <li class="list-group-item" v-for="a in bioPublications" :key="a.name">
-                    <a :href="a.link">
-                        <h5>{{a.name}}</h5>
-                        <p><small>{{a.note}}</small></p>
-                    </a>
-                    <div class="extraContainer" v-if="a.extras !== undefined">
-                        <a class="btn btn-primary" v-for="extra in a.extras" :href="extra.path" :key="extra.path">{{extra.name}}</a>
-                    </div>
-                    </li>
-                </ul>
+                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showBioPublications = !showBioPublications">Toggle</button></h4>
+                  <ul class="list-group" v-show="showBioPublications">
+                      <li class="list-group-item" v-for="a in bioPublications" :key="a.name">
+                      <a :href="a.link">
+                          <h5>{{a.name}}</h5>
+                          <p><small>{{a.note}}</small></p>
+                      </a>
+                      <div class="extraContainer" v-if="a.extras !== undefined">
+                          <a class="btn btn-primary" v-for="extra in a.extras" :href="extra.path" :key="extra.path">{{extra.name}}</a>
+                      </div>
+                      </li>
+                  </ul>
+            </div>
           </div>
         </div>
       </div>
