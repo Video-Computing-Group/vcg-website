@@ -5,8 +5,12 @@
           <div class="col-md-12">
               <h2 id="name">Wide Area Scene Analysis in Vision Network</h2>
               <center>
-                <video id="video" width="60%" controls>
+                <video id="video" width="50%" controls>
                     <source src="/img/research/Tracking_results.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video
+                </video>
+                <video id="video" width="50%" controls>
+                    <source src="/img/research/cameranetworkcontrol.mp4" type="video/mp4">
                     Your browser does not support HTML5 video
                 </video>
               </center>

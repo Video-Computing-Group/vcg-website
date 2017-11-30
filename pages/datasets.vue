@@ -46,7 +46,7 @@
                 <a class="btn btn-primary" href="https://drive.google.com/file/d/0B3uIyPMHSpNrSzk5QWc3WnBwT3c/view?pref=2&pli=1">Dataset</a>
                 <p><strong>Please refer to the following article when using this dataset:</strong><br/>
                     <small>
-                        A. Das, A. Chakraborty, A. Roy-Chowdhury."Consistent Re-identification In A Camera Network". European Conference on Computer Vision, pp. 330-345, vol.8690, Zurich, 2014.
+                        R. Panda, N.C. Mithun, A. Roy-Chowdhury, "Diversity-aware Multi-Video Summarization" in IEEETransactions on Image Processing, 2017
                     </small>
                 </p>
             </div>

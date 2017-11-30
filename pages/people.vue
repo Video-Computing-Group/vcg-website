@@ -123,7 +123,7 @@ export default {
           image: '/../../../img/poeple/amit.jpg',
           website: '',
           contact: {
-            email: 'amitrc@ee.ucr.edu',
+            email: 'amitrc@ece.ucr.edu',
             mobile: '951-827-7886',
             website: '/amit'
           }
@@ -323,10 +323,10 @@ export default {
         {
           name: 'Niluthpol Mithun',
           position: 'PhD Candidate, Electrical and Computer Engineering',
-          image: 'Mithun.jpg',
+          image: 'niluthpol.png',
           website: '',
           contact: {
-            email: 'nmith001@ucr.edu',
+            email: 'niluthpol.chy@gmail.com',
             mobile: '',
             website: 'http://www.ee.ucr.edu/~nmithun/'
           }
@@ -334,7 +334,7 @@ export default {
         {
           name: 'Rameswar Panda',
           position: 'PhD Candidate, Electrical and Computer Engineering',
-          image: 'Panda.png',
+          image: 'rameswar.png',
           website: '',
           contact: {
             email: 'rpand002@ucr.edu',
@@ -359,7 +359,7 @@ export default {
           image: 'sujoy.jpg',
           website: '',
           contact: {
-            email: 'supaul@ece.ucr.edu',
+            email: 'spaul003@ucr.edu',
             mobile: '',
             website: 'http://ee.ucr.edu/~supaul/'
           }
@@ -377,22 +377,22 @@ export default {
         },
         {
           name: 'Sourya Roy',
-          position: 'PhD Candidate, Electrical and Compouting Engineering',
+          position: 'PhD Candidate, Electrical and Computer Engineering',
           image: 'sourya.jpg',
           website: '',
           contact: {
-            email: 'souroy099@gmail.com ',
+            email: 'sroy004@ucr.edu',
             mobile: '',
             website: ''
           }
         },
         {
           name: 'Sasha Li',
-          position: 'PhD Candidate, Electrical and Computer Engineering',
+          position: 'PhD Candidate, Computer Science and Engineering',
           image: 'shasha.jpg',
           website: '',
           contact: {
-            email: '',
+            email: 'sli057@ucr.edu',
             mobile: '',
             website: ''
           }
@@ -403,7 +403,7 @@ export default {
           image: 'Akash.jpg',
           website: '',
           contact: {
-            email: '',
+            email: 'agupt013@ucr.edu',
             mobile: '',
             website: ''
           }

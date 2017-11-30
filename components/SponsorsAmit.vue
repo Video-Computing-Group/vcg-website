@@ -1,7 +1,7 @@
 <template>
-  <div id="sponsors home-body" class="home-body row text-center">
-    <h3>Acknowledgements</h3>
-    <p>The Video Computing Group graciously acknowledges the funding received from a number of government agencies and private corporations.</p>
+  <div id="sponsors home-body" class="home-body row">
+    <h3 class="text-center">Acknowledgements</h3>
+    <p class="justify-text">The Video Computing Group graciously acknowledges the funding received from a number of government agencies and private corporations.</p>
     <div class="row">
       <div class="col-md-1 col-md-offset-1 col-xs-1 col-xs-offset-1">
         <img class="news" src="/img/sponsors/aro.gif" alt="ARO">
@@ -36,3 +36,10 @@
     </div>
 </div>
 </template>
+
+<style scoped>
+.col-xs-1 {
+  padding-right: 0px;
+}
+</style>
+

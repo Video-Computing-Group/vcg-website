@@ -50,7 +50,7 @@
       return {
         news: [
           {
-            name: 'Drones to Grow Mind of Their Own',
+            name: 'NSF Grant in Smart and Autonomous Systems',
             link: '',
             externalLink: 'https://ucrtoday.ucr.edu/49421',
             image: 'Drone.jpg',
@@ -58,81 +58,81 @@
             type: ''
           },
           {
-            name: 'Joint Prediction of Activity Labels and Starting Times in Untrimmed Videos',
+            name: 'Prediction of Future Activities',
             link: 'ICCV_Tahmida.pdf',
             image: 'iccv1.png',
             source: 'ICCV 2017',
             type: ''
           },
           {
-            name: 'Exploiting Spatial Structure for Localizing Manipulated Image Regions',
+            name: 'Image Forensics',
             link: 'ICCV_Jawad.pdf',
             image: 'iccv2.png',
             source: 'ICCV 2017',
             type: ''
           },
           {
-            name: 'Weakly Supervised Summarization of Web Videos',
+            name: 'Weakly Supervised Summarization',
             link: 'ICCV_Rameswar.pdf',
             image: 'iccv3.png',
             source: 'ICCV 2017',
             type: ''
           },
           {
-            name: 'Unsupervised Adaptive Re-identification in Open World Dynamic Camera Networks',
+            name: 'Reid in Dynamic Camera Networks',
             link: 'cvpr2017reid.pdf',
             image: 'cvpr.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
-            name: 'Collaborative Summarization of Topic-Related Videos',
+            name: 'Collaborative Summarization',
             link: 'cvpr2017summ.pdf',
             image: 'cvpr2017summ.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
-            name: 'Non-Uniform Subset Selection for Active Learning in Structured Data',
+            name: 'Active Learning with Non-Uniform Subset Selection',
             link: 'cvpr2017subset.pdf',
             image: 'cvpr2017typical.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
-            name: 'The Impact of Typicality for Informative Representative Selection',
+            name: 'Typicality for Subset Selection',
             link: 'cvpr2017typicality.pdf',
             image: 'cvpr2017typicality.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
-            name: 'Distributed Multi-target Tracking and Data Association in Vision Networks ',
-            link: 'eccv2016_jawad.pdf',
-            image: 'eccv2016_jawad.png',
-            source: 'IEEE',
-            type: 'TPAMI 2017'
-          },
-          {
-            name: 'Re-Identification in the Function Space of Feature Warps',
-            image: 'tpami.png',
-            link: 'PAMI14-Reid.pdf',
-            source: 'IEEE',
-            type: 'TPAMI 2017'
-          },
-          {
-            name: 'Diversity-aware Multi-Video Summarization',
+            name: 'Diversity-Aware Multi-Video Summarization',
             link: 'TIP_Rameswar.pdf',
             image: 'tip.png',
             source: 'IEEE',
             type: 'TIP 2017'
           },
           {
-            name: 'Multi-View Surveillance Video Summarization via Joint Embedding and Sparse Optimization',
+            name: 'Camera Network Video Summarization',
             link: 'TMM_Rameswar.pdf',
             image: 'tmm.png',
             source: 'IEEE',
             type: 'TMM 2017'
+          },
+          {
+            name: 'Distributed Estimation for Tracking in Camera Networks',
+            link: 'eccv2016_jawad.pdf',
+            image: 'eccv2016_jawad.png',
+            source: 'IEEE',
+            type: 'TPAMI 2016'
+          },
+          {
+            name: 'Network Consistent Data Association',
+            image: 'tpami.png',
+            link: 'PAMI14-Reid.pdf',
+            source: 'IEEE',
+            type: 'TPAMI 2016'
           }
         ],
         swiperOption: {

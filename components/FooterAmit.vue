@@ -13,3 +13,18 @@
       </div>
     </footer>
 </template>
+
+<style scoped>
+.footer {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  /* line-height: 100px; Vertically center the text there */
+  background-color: #f5f5f5;
+  border-top: 1px solid black;
+}
+
+p {
+  text-align: center;
+}
+</style>
