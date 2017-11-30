@@ -5,10 +5,7 @@
           <div class="col-md-12">
               <h2 id="name">Human Robot Vision Networks for Scene Understanding</h2>
               <p>
-                  Automated visual scene understanding has remained a very hard problem for uncontrolled environments. For the foreseeable future, it is natural to expect that humans and computer vision systems will be working together in applications like disaster response. This project explores the fundamental scientific challenges in the coordination between humans and robots for tasks in computer vision and robotics.
-              </p>
-              <p>
-                  Employing robots, instead of humans, for dangerous tasks in security, surveillance, and disaster response operations is a long-standing goal. However, developing robots that would be capable of carrying out all necessary tasks (e.g., searching for and tending to victims, neutralizing dangers such as fires) with full autonomy still remains a remote possibility. A more tangible goal is to have robots that will operate alongside humans, to jointly accomplish a given mission. Robots can provide useful information, keep humans out of harm's way, and enhance or enable operations in places too strenuous or dangerous for humans. 
+                  Automated visual scene understanding has remained a very hard problem for uncontrolled environments, like security, surveillance, and disaster response operations. For the foreseeable future, it is natural to expect that humans and computer vision systems will be working together in applications like disaster response. This project explores the fundamental scientific challenges in the coordination between humans and robots for tasks in computer vision and robotics.  In this project, we use the term Human-Robot Visual Network (HRVN) to refer to such human-robot teams employed for the task of scene understanding. Below are some of the research problems we have worked on within the broad scope of this project.
               </p>
               <img class="research-img" src="/img/research/HCI_network.png" alt="HCI Network">
               <p>
@@ -224,4 +221,7 @@ export default {
 .publicationHeader {
   text-decoration: underline;
 }
+/* .research-img {
+  width: 70%;
+} */
 </style>

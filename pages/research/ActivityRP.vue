@@ -4,7 +4,7 @@
         <div class="container row">
           <div class="col-md-12">
               <h2 id="name">Activity Recognition and Prediction</h2>
-              <img class="research-img" src="/img/research/Scene1Cam37.gif" alt="Scene1Cam37">
+              <img class="research-img" src="/img/research/Activity_Recognition_and_Prediction.png" alt="Scene1Cam37">
               <p>
                 The goal of this project is to retrieve segments from a video database given a video clip of an activity of interest. Not only does this require development of activity recognition algorithms, these algorithms need to be integrated with video search and retrieval methods in large databases.
               </p>
@@ -35,7 +35,7 @@
 
               <h3>Context-Aware Activity Recognition <button class="btn btn-primary" @click="showContent = !showContent">View</button></h3>
               <div v-show="showContent">
-                <img class="research-img" src="/img/research/context_in_activity.png" alt="Context in Activity">
+                <img class="research-img" src="/img/research/Activity_Forecasting.png" alt="Context in Activity">
                 <p>
                     In this project, we are developing methods for recognition of complex activities in video. A core focus area has been on context-aware modeling and recognition strategies, where neighborhood information is exploited to recognize the activities on the targets of interest. We have also shown the utility of usage statistics in searching large video datasets.
                 </p>
@@ -59,6 +59,12 @@
       </div>
    </div>
 </template>
+
+<style scoped>
+.research-img {
+  width: 70%;
+}
+</style>
 
 <script>
 export default {

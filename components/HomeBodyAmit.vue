@@ -3,7 +3,7 @@
         <div class="row">
           <div class="col-md-8">
             <h3>
-                The Video Computing Group at the University of California, Riverside conducts cutting edge research in computer vision, image processing, statistical learning and signal processing.
+                The Video Computing Group at the University of California, Riverside conducts research on various problems in computer vision, image processing, statistical learning and signal processing.
             </h3>
             <p>
               <strong>Principal Investigator</strong>: <router-link to="amit">Amit Roy-Chowdhury</router-link>

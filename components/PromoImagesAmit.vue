@@ -1,9 +1,9 @@
 <template>
   <div class="row header-parent">
-        <div class="col-md-3 col-xs-6 header-img-container"><img class="header-img" src="/img/amitrc_cover.jpg" alt="The Team"></div>
-        <div class="col-md-3 col-xs-6 header-img-container"><img class="header-img" src="/img/image3.png" alt=""></div>
-        <div class="col-md-3 col-xs-6 header-img-container"><img class="header-img" src="/img/image4.png" alt=""></div>
-        <div class="col-md-3 col-xs-6 header-img-container"><img class="header-img" src="/img/image5.png" alt=""></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/amitrc_cover.jpg" alt="The Team"></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/top_row_2.png" alt=""></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/top_row_3.png" alt=""></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/top_row_4.png" alt=""></div>
       </div>
 </template>
 
@@ -22,9 +22,20 @@
     border-bottom: 5px solid #ffc800;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .header-parent {
-        height: 13vh;
+        height: 10vh;
+        overflow: hidden;
+        margin-left: 0;
+        margin-right: 0;
+        border-top: 5px solid #ffc800;
+        border-bottom: 5px solid #ffc800;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-parent {
+        height: 8vh;
         overflow: hidden;
         margin-left: 0;
         margin-right: 0;

@@ -9,10 +9,6 @@
                     <source src="/img/research/Tracking_results.mp4" type="video/mp4">
                     Your browser does not support HTML5 video
                 </video>
-                <video id="video" width="50%" controls>
-                    <source src="/img/research/cameranetworkcontrol.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video
-                </video>
               </center>
                 <p>
                     Networks of cameras are nowadays installed in various places. However, most of the data collected by such networks are analyzed manually, thus severely limiting their application. In this research, which is divided into different sub-projects, we are studying the core scientific and technical issues related to camera networks, such as information fusion, network control, activity analysis, the interplay between networking and computer vision, and computational complexity. 
@@ -23,6 +19,7 @@
               <h3>Camera Network Tracking and Re-identification <button class="btn btn-primary" @click="showCameraNetwork = !showCameraNetwork">View</button></h3>
               
               <div v-show="showCameraNetwork">
+                <img class="research-img" src="/img/research/cameranetwork.png"/>
                 <p>
                     In many computer vision tasks it is often desirable to identify and monitor people as they move through a network of non-overlapping cameras. This is especially challenging as for a network of cameras issues such as changes of scale, illumination, viewing angle and pose start to arise. In this project we try to address this inter camera person association problem. We have shown that incorporating a consistency requirement of re-identification results across the camera network can significantly improve the re-identification performance even in the challenging scenarios where the illumination changes between the cameras are large.
                 </p>
@@ -46,6 +43,12 @@
 
             <h3>Distributed Estimation <button class="btn btn-primary" @click="showDistributed = !showDistributed">View</button></h3>
             <div v-show="showDistributed">
+              <center>
+                <video id="video" width="50%" controls>
+                    <source src="/img/research/cameranetworkcontrol.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video
+                </video>
+              </center>
                 <p>
                     In this project, we are developing methods for estimation and control in distributed camera networks. Specifically, we have looked at the following problems.
                 </p>

@@ -60,76 +60,76 @@
           {
             name: 'Prediction of Future Activities',
             link: 'ICCV_Tahmida.pdf',
-            image: 'iccv1.png',
+            image: 'ICCV_1.png',
             source: 'ICCV 2017',
             type: ''
           },
           {
             name: 'Image Forensics',
             link: 'ICCV_Jawad.pdf',
-            image: 'iccv2.png',
+            image: 'ICCV_2.png',
             source: 'ICCV 2017',
             type: ''
           },
           {
             name: 'Weakly Supervised Summarization',
             link: 'ICCV_Rameswar.pdf',
-            image: 'iccv3.png',
+            image: 'ICCV_3.png',
             source: 'ICCV 2017',
             type: ''
           },
           {
             name: 'Reid in Dynamic Camera Networks',
             link: 'cvpr2017reid.pdf',
-            image: 'cvpr.png',
+            image: 'CVPR_1.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
             name: 'Collaborative Summarization',
             link: 'cvpr2017summ.pdf',
-            image: 'cvpr2017summ.png',
+            image: 'CVPR_2.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
             name: 'Active Learning with Non-Uniform Subset Selection',
             link: 'cvpr2017subset.pdf',
-            image: 'cvpr2017typical.png',
+            image: 'CVPR_3.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
             name: 'Typicality for Subset Selection',
             link: 'cvpr2017typicality.pdf',
-            image: 'cvpr2017typicality.png',
+            image: 'CVPR_4.png',
             source: 'CVPR 2017',
             type: ''
           },
           {
             name: 'Diversity-Aware Multi-Video Summarization',
             link: 'TIP_Rameswar.pdf',
-            image: 'tip.png',
+            image: 'TIP.png',
             source: 'IEEE',
             type: 'TIP 2017'
           },
           {
             name: 'Camera Network Video Summarization',
             link: 'TMM_Rameswar.pdf',
-            image: 'tmm.png',
+            image: 'TMM.png',
             source: 'IEEE',
             type: 'TMM 2017'
           },
           {
             name: 'Distributed Estimation for Tracking in Camera Networks',
             link: 'eccv2016_jawad.pdf',
-            image: 'eccv2016_jawad.png',
+            image: 'TPAMI_1.png',
             source: 'IEEE',
             type: 'TPAMI 2016'
           },
           {
             name: 'Network Consistent Data Association',
-            image: 'tpami.png',
+            image: 'TPAMI_2.png',
             link: 'PAMI14-Reid.pdf',
             source: 'IEEE',
             type: 'TPAMI 2016'
@@ -147,12 +147,10 @@
           pagination: '.swiper-pagination',
           breakpoints: {
             800: {
-              slidesPerView: 1,
-              autoplay: 500
+              slidesPerView: 1
             },
             1000: {
-              slidesPerView: 2,
-              autoplay: 1000
+              slidesPerView: 2
             }
           }
         }

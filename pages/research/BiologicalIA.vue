@@ -43,6 +43,12 @@
    </div>
 </template>
 
+<style scoped>
+.research-img {
+  width: 80%;
+}
+</style>
+
 <script>
 export default {
   data: function () {
