@@ -58,6 +58,34 @@
             type: ''
           },
           {
+            name: 'Diversity-Aware Multi-Video Summarization',
+            link: 'TIP_Rameswar.pdf',
+            image: 'TIP.png',
+            source: 'IEEE',
+            type: 'TIP 2017'
+          },
+          {
+            name: 'Camera Network Video Summarization',
+            link: 'TMM_Rameswar.pdf',
+            image: 'TMM.png',
+            source: 'IEEE',
+            type: 'TMM 2017'
+          },
+          {
+            name: 'Distributed Estimation for Tracking in Camera Networks',
+            link: 'eccv2016_jawad.pdf',
+            image: 'TPAMI_1.png',
+            source: 'IEEE',
+            type: 'TPAMI 2016'
+          },
+          {
+            name: 'Network Consistent Data Association',
+            image: 'TPAMI_2.png',
+            link: 'PAMI14-Reid.pdf',
+            source: 'IEEE',
+            type: 'TPAMI 2016'
+          },
+          {
             name: 'Prediction of Future Activities',
             link: 'ICCV_Tahmida.pdf',
             image: 'ICCV_1.png',
@@ -105,34 +133,6 @@
             image: 'CVPR_4.png',
             source: 'CVPR 2017',
             type: ''
-          },
-          {
-            name: 'Diversity-Aware Multi-Video Summarization',
-            link: 'TIP_Rameswar.pdf',
-            image: 'TIP.png',
-            source: 'IEEE',
-            type: 'TIP 2017'
-          },
-          {
-            name: 'Camera Network Video Summarization',
-            link: 'TMM_Rameswar.pdf',
-            image: 'TMM.png',
-            source: 'IEEE',
-            type: 'TMM 2017'
-          },
-          {
-            name: 'Distributed Estimation for Tracking in Camera Networks',
-            link: 'eccv2016_jawad.pdf',
-            image: 'TPAMI_1.png',
-            source: 'IEEE',
-            type: 'TPAMI 2016'
-          },
-          {
-            name: 'Network Consistent Data Association',
-            image: 'TPAMI_2.png',
-            link: 'PAMI14-Reid.pdf',
-            source: 'IEEE',
-            type: 'TPAMI 2016'
           }
         ],
         swiperOption: {
