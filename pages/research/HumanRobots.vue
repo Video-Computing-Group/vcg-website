@@ -221,7 +221,7 @@ export default {
 .publicationHeader {
   text-decoration: underline;
 }
-/* .research-img {
+.research-img {
   width: 70%;
-} */
+}
 </style>
