@@ -22,7 +22,7 @@
     border-bottom: 5px solid #ffc800;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .header-parent {
         height: 10vh;
         overflow: hidden;

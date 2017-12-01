@@ -8,7 +8,7 @@
           <div class="col-md-6">
             <div class="row">
               <div class="person">
-                <div class="col-md-3 col-xs-5">
+                <div class="col-md-3 col-xs-3">
                   <img src="/img/people/amit.jpg" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
@@ -31,7 +31,7 @@
           <div class="col-md-6 col-xs-12 personContainer" v-for="member in grads" :key="member.name">
             <div class="row">
               <div class="person" >
-                <div class="col-md-3 col-xs-5" :key="member.name">
+                <div class="col-md-3 col-xs-3" :key="member.name">
                   <img :src="'/img/people/' + member.image" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
@@ -53,7 +53,7 @@
           <div class="col-md-6 personContainer" v-for="member in undergrads" :key="member.name">
             <div class="row">
               <div class="person" >
-                <div class="col-md-3 col-xs-5" :key="member.name">
+                <div class="col-md-3 col-xs-3" :key="member.name">
                   <img :src="'/img/people/' + member.image" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
@@ -76,7 +76,7 @@
           <div class="col-md-6 personContainer" v-for="member in visitors" :key="member.name">
             <div class="row">
               <div class="person" >
-                <div class="col-md-3 col-xs-5" :key="member.name">
+                <div class="col-md-3 col-xs-3" :key="member.name">
                   <img :src="'/img/people/' + member.image" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
@@ -96,8 +96,8 @@
           <div class="col-md-12 text-center">
             <h2>Former Students and Research Collaborators</h2>
           </div>
-          <ul>
-            <li v-for="a in alumni" :key="a.name">
+          <ul class="group-list">
+            <li class="group-list-item" v-for="a in alumni" :key="a.name">
               <strong>{{ a.name }}</strong> ({{ a.degree }}) <br>
               {{ a.position }} <br>
               <span v-if="a.thesis.length > 0">

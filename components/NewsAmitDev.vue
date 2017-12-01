@@ -175,4 +175,7 @@
 .news {
   height: 100%;
 }
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0px;
+}
 </style>

@@ -6,28 +6,28 @@
               <img id="profile-picture" src="/img/people/amit.jpg" alt="Amit">
           </div>
           <div class="col-md-4">
-              <h2 id="name">Amit K. Roy-Chowdhury</h2>
+              <h3 id="name">Amit K. Roy-Chowdhury</h3>
               <p><strong>Professor</strong>, <a href="http://ece.ucr.edu">Electrical and Computing Enginering</a></p>
               <p><strong>Cooperating Faculty</strong>, <a href="http://ece.ucr.edu">Computer Science and Engineering</a></p>
               <p><strong>Principal Investigator</strong>, <router-link to="/">Video Computing Group</router-link></p>
               <p><strong>Winston Chung Hall 431</strong>, UC Riverside</p>
               <div class="row">
-                  <div class="col-md-6">
-                      <p><strong>Phone</strong>: (951) 827-7886</p>
-                  </div>
-                  <div class="col-md-6">
-                      <p><strong>Fax</strong>: (951) 827-2425</p>
-                  </div>
-                  <div class="col-md-6">
-                      <p><strong>Email</strong>: <a href="mailto:amitrc@ee.ucr.edu">amitrc@ee.ucr.edu</a></p>
+                  <div class="col-md-12">
+                      <span><strong>Phone</strong>: (951) 827-7886</span>
                   </div>
                   <div class="col-md-12">
-                      <p><strong>Calendar</strong>: <a href="https://exchange.engr.ucr.edu/owa/calendar/d2383983d21c431c88e35b4c56929342@ee.ucr.edu/664d22dea30e4cbe833cc229f2961a444807192837336123402/calendar.html">Outlook Exchange</a></p>
+                      <span><strong>Fax</strong>: (951) 827-2425</span>
+                  </div>
+                  <div class="col-md-12">
+                      <span><strong>Email</strong>: <a href="mailto:amitrc@ee.ucr.edu">amitrc@ee.ucr.edu</a></span>
+                  </div>
+                  <div class="col-md-12">
+                      <span><strong>Calendar</strong>: <a href="https://exchange.engr.ucr.edu/owa/calendar/d2383983d21c431c88e35b4c56929342@ee.ucr.edu/664d22dea30e4cbe833cc229f2961a444807192837336123402/calendar.html">Outlook Exchange</a></span>
                   </div>
               </div>
           </div>
           <div class="col-md-5">
-              <h2>Research Interests</h2>
+              <h3>Research Interests</h3>
               <ul>
                   <li>Computer Vision and Image Processing</li>
                   <li>Statistical Signal Processing and Pattern Recognition</li>
