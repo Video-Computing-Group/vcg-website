@@ -11,7 +11,7 @@
 
               <h3>Activity Forecasting <button class="btn btn-primary" @click="showActivity = !showActivity">View</button></h3>
               <div v-show="showActivity">
-                <img class="research-img" src="/img/research/graph-structure-activity-forecasting.png" alt="Graph Structure">
+                <img class="research-img" src="/img/research/Activity_Forecasting.png" alt="Context in Activity">
                 <p>
                     In this project, we investigate the problem of forecasting future activities in continuous videos. Ability to successfully forecast activities that are yet to be observed is a very important video understanding problem, and is starting to receive attention in the computer vision literature. An activity forecasting strategy that models the simultaneous and/or sequential nature of human activities on a graph and combines that with the interrelationship between  scene cues and dynamic target trajectories is explored.
                 </p>
@@ -35,7 +35,6 @@
 
               <h3>Context-Aware Activity Recognition <button class="btn btn-primary" @click="showContent = !showContent">View</button></h3>
               <div v-show="showContent">
-                <img class="research-img" src="/img/research/Activity_Forecasting.png" alt="Context in Activity">
                 <p>
                     In this project, we are developing methods for recognition of complex activities in video. A core focus area has been on context-aware modeling and recognition strategies, where neighborhood information is exploited to recognize the activities on the targets of interest. We have also shown the utility of usage statistics in searching large video datasets.
                 </p>

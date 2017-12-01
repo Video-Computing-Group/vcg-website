@@ -3,8 +3,14 @@
     <h3 class="text-center">Acknowledgements</h3>
     <p class="justify-text">The Video Computing Group graciously acknowledges the funding received from a number of government agencies and private corporations.</p>
     <div class="row">
-      <div class="col-md-1 col-md-offset-1 col-xs-1 col-xs-offset-1">
+      <div class="col-md-1 col-xs-1">
+        <img class="news" src="/img/sponsors/adobe.svg" alt="adobe">
+      </div>
+      <div class="col-md-1 col-xs-1">
         <img class="news" src="/img/sponsors/aro.gif" alt="ARO">
+      </div>
+      <div class="col-md-1 col-xs-1">
+        <img class="news" src="/img/sponsors/nvidia.png" alt="nvidia">
       </div>
       <div class="col-md-1 col-xs-1">
         <img class="news" src="/img/sponsors/cisco.png" alt="CISCO">

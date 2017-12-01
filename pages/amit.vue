@@ -105,8 +105,9 @@ export default {
   margin-top: 10px;
 }
 #name {
-  padding-bottom: 5px;
-  border-bottom: #234674 solid 2px;
+  /* padding-bottom: 5px;
+  border-bottom: #234674 solid 2px; */
+  font-weight: 800;
 }
 </style>
 

@@ -9,7 +9,7 @@
                  Face recognition continues to be one of the important problems in computer vision. Our goal is to develop video-based face tracking and recognition algorithms that are robust to changes of pose and lighting. 
               </p>
 
-              <h3>Face Recognition in Art Images  <button class="btn btn-primary" @click="showArt = !showArt">Toggle</button></h3>
+              <h3>Face Recognition in Art Images  <button class="btn btn-primary" @click="showArt = !showArt">View</button></h3>
               <div v-show="showArt">
                 <img class="research-img" src="/img/research/FaceRecognition.png" alt="Faces">
                 <p>

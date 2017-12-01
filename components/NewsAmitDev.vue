@@ -3,7 +3,7 @@
     <div v-swiper:mySwiper="swiperOption">
       <div class="swiper-wrapper">
         <div class="swiper-slide" v-for="n in news" :key="n.name">
-          <a v-if="n.link.length > 0" :href="'../../static/publications/' + n.link">
+          <a v-if="n.link.length > 0" :href="'/publications/' + n.link">
             <div v-if="n.source" class="banner" :style="convertToHex(n.source)">
               <strong>{{ n.source }} <span v-if="n.type">- {{ n.type }}</span></strong>
             </div>
@@ -15,7 +15,7 @@
             </div>
             <img class="news" :src="'/img/featured_news/' + n.image" :alt="n.name">
           </a>
-          <a v-if="n.link.length > 0" :href="'../../static/publications/' + n.link">
+          <a v-if="n.link.length > 0" :href="'/publications/' + n.link">
             {{ n.name }} 
           </a>
           <a v-else :href="n.externalLink">
@@ -72,20 +72,6 @@
             type: 'TMM 2017'
           },
           {
-            name: 'Distributed Estimation for Tracking in Camera Networks',
-            link: 'eccv2016_jawad.pdf',
-            image: 'TPAMI_1.png',
-            source: 'IEEE',
-            type: 'TPAMI 2016'
-          },
-          {
-            name: 'Network Consistent Data Association',
-            image: 'TPAMI_2.png',
-            link: 'PAMI14-Reid.pdf',
-            source: 'IEEE',
-            type: 'TPAMI 2016'
-          },
-          {
             name: 'Prediction of Future Activities',
             link: 'ICCV_Tahmida.pdf',
             image: 'ICCV_1.png',
@@ -133,6 +119,20 @@
             image: 'CVPR_4.png',
             source: 'CVPR 2017',
             type: ''
+          },
+          {
+            name: 'Distributed Estimation for Tracking in Camera Networks',
+            link: 'eccv2016_jawad.pdf',
+            image: 'TPAMI_1.png',
+            source: 'IEEE',
+            type: 'TPAMI 2016'
+          },
+          {
+            name: 'Network Consistent Data Association',
+            image: 'TPAMI_2.png',
+            link: 'PAMI14-Reid.pdf',
+            source: 'IEEE',
+            type: 'TPAMI 2016'
           }
         ],
         swiperOption: {
@@ -160,20 +160,20 @@
 </script>
 
 <style scoped>
+.swiper-container {
+  height: 300px;
+}
 .banner {
   height: 5vh;
   width: 100%;
-  /* background-color: #ffc800; */
   opacity: 0.80;
   color: white;
   text-align: center;
   vertical-align: center;
   line-height: 5vh;
-  /* position: absolute; */
-  /* z-index: 1; */
 }
 .news {
-  height: 100%;
+  height: 175px;
 }
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
   bottom: 0px;
