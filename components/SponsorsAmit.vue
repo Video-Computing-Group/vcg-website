@@ -28,7 +28,7 @@
         <img class="news" src="/img/sponsors/mayachitra.png" alt="Mayachitra">
       </div>
       <div class="col-md-1 col-xs-1">
-        <img class="news" src="/img/sponsors/neh.svg" alt="NEH">
+        <img class="news" src="/img/sponsors/neh.jpg" alt="NEH">
       </div>
       <div class="col-md-1 col-xs-1">
         <img class="news" src="/img/sponsors/nga.png" alt="NGA">
