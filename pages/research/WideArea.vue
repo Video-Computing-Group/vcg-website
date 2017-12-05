@@ -16,15 +16,26 @@
 
               <hr/>
 
-              <h3>Camera Network Tracking and Re-identification <button class="btn btn-primary" @click="showCameraNetwork = !showCameraNetwork">View</button></h3>
+              <h3>Camera Network Tracking and Re-identification
+                <button class="btn btn-primary" @click="showCameraNetwork = !showCameraNetwork">
+                  <span v-if="!showCameraNetwork">+</span>
+                  <span v-else>-</span>
+                  </button>
+                </h3>
               
               <div v-show="showCameraNetwork">
-                <img class="research-img" src="/img/research/cameranetwork.png"/>
+                <img class="research-img" src="/img/research/Camera_Network_Tracking_and_Re-identification.png"/>
                 <p>
                     In many computer vision tasks it is often desirable to identify and monitor people as they move through a network of non-overlapping cameras. This is especially challenging as for a network of cameras issues such as changes of scale, illumination, viewing angle and pose start to arise. In this project we try to address this inter camera person association problem. We have shown that incorporating a consistency requirement of re-identification results across the camera network can significantly improve the re-identification performance even in the challenging scenarios where the illumination changes between the cameras are large.
                 </p>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showCameraPublications = !showCameraPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showCameraPublications = !showCameraPublications">
+                    <span v-if="!showCameraPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                 <ul class="list-group" v-show="showCameraPublications">
                     <li class="list-group-item" v-for="a in cameraPublications" :key="a.name">
@@ -41,14 +52,14 @@
 
             <hr/>
 
-            <h3>Distributed Estimation <button class="btn btn-primary" @click="showDistributed = !showDistributed">View</button></h3>
+            <h3>Distributed Estimation
+              <button class="btn btn-primary" @click="showDistributed = !showDistributed">
+                <span v-if="!showDistributed">+</span>
+                <span v-else>-</span>
+              </button>
+            </h3>
             <div v-show="showDistributed">
-              <center>
-                <video id="video" width="50%" controls>
-                    <source src="/img/research/cameranetworkcontrol.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video
-                </video>
-              </center>
+              <img class="research-img" src="/img/research/distributed_estimation.png"/>
                 <p>
                     In this project, we are developing methods for estimation and control in distributed camera networks. Specifically, we have looked at the following problems.
                 </p>
@@ -64,7 +75,13 @@
                     <li><a href="../../../static/img/research/MTIC_Matlab_Code.zip">Matlab code for Distributed Multi-target Tracking</a></li>
                 </ul>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showDistributedPublications = !showDistributedPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showDistributedPublications = !showDistributedPublications">
+                    <span v-if="!showDistributedPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                 <ul class="list-group" v-show="showDistributedPublications">
                     <li class="list-group-item" v-for="a in cameraPublications" :key="a.name">
@@ -82,13 +99,30 @@
 
             <hr />
 
-            <h3>Active Sensing <button class="btn btn-primary" @click="showActiveSensing = !showActiveSensing">View</button></h3>
+            <h3>Active Sensing
+              <button class="btn btn-primary" @click="showActiveSensing = !showActiveSensing">
+                <span v-if="!showActiveSensing">+</span>
+                <span v-else>-</span>
+              </button>
+            </h3>
             <div v-show="showActiveSensing">
+              <center>
+                <video id="video" width="50%" controls>
+                    <source src="/img/research/cameranetworkcontrol.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video
+                </video>
+              </center>
                 <p>
                     We are developing methods for optimizing the image acquisition capabilities of the cameras so as to maximize the performance of the methods used to analyze these image. This needs to be done through collaboration between the cameras in a network, as each camera's parameters entail constraints on the others. We have developed distributed control methods for collaborative and opportunistic sensing in wide-area camera networks.
                 </p>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showActiveSensingPublications = !showActiveSensingPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showActiveSensingPublications = !showActiveSensingPublications">
+                    <span v-if="!showActiveSensingPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                 <ul class="list-group" v-show="showActiveSensingPublications">
                     <li class="list-group-item" v-for="a in activeSensingPublications" :key="a.name">

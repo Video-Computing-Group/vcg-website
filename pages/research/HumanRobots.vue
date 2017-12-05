@@ -13,7 +13,12 @@
               </p>
 
               <hr/>
-              <h3>Active Learning <button class="btn btn-primary" @click="showActiveLearning = !showActiveLearning">View</button></h3>
+              <h3>Active Learning 
+                <button class="btn btn-primary" @click="showActiveLearning = !showActiveLearning">
+                  <span v-if="!showActiveLearning">+</span>
+                  <span v-else>-</span>
+                </button>
+              </h3>
 
               <div v-show="showActiveLearning">
                 <img class="research-img" src="/img/research/Continuous-Learning.png" alt="Continuous Learning">
@@ -21,7 +26,13 @@
                     Most of the state-of-the-art approaches to human activity recognition in video need an intensive training stage and assume that all of the training examples are labeled and available beforehand. They also use hand-crafted features. These assumptions are unrealistic for many applications where we have to deal with streaming videos. In these videos, as new activities are seen, they can be leveraged upon to improve the current activity recognition models. Under this project, we develop an incremental activity learning framework that is able to continuously update the activity models and learn new ones as more videos are seen. Our proposed approach leverages upon state-of-the-art machine learning tools, most notably active learning and deep learning. It does not require tedious manual labeling of every incoming example of each activity class.
                 </p>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showActiveLearningPublications = !showActiveLearningPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showActiveLearningPublications = !showActiveLearningPublications">
+                    <span v-if="!showActiveLearningPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                 <ul class="list-group" v-show="showActiveLearningPublications">
                     <li class="list-group-item" v-for="a in activeLearningPublications" :key="a.name">
@@ -38,14 +49,25 @@
 
             <hr/>
 
-            <h3>Camera Network Summarization <button class="btn btn-primary" @click="showCamera = !showCamera">View</button></h3>
+            <h3>Camera Network Summarization 
+              <button class="btn btn-primary" @click="showCamera = !showCamera">
+                <span v-if="!showCamera">+</span>
+                <span v-else>-</span>
+              </button>
+            </h3>
             <div v-show="showCamera">
                 <img class="research-img" src="/img/research/summarization.png" alt="Summarization">
                 <p>
                     With the recent explosion of big video data, it is becoming increasingly important to automatically extract a brief yet informative summary of these videos in order to enable a more efficient and engaging viewing experience. Video summarization automates this process by providing a succinct representation of a video or a set of videos. The goal of this project is to summarize multiple videos captured in a network of surveillance cameras without requiring any prior knowledge on the field of view of the cameras. We solve the task of summarizing multi-view videos by formulating a sparse representative selection approach over a learned subspace shared by the multiple videos.
                 </p>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showCameraPublications = !showCameraPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showCameraPublications = !showCameraPublications">
+                    <span v-if="!showCameraPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                 <ul class="list-group" v-show="showCameraPublications">
                     <li class="list-group-item" v-for="a in cameraPublications" :key="a.name">

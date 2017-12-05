@@ -9,14 +9,25 @@
                 The goal of this project is to retrieve segments from a video database given a video clip of an activity of interest. Not only does this require development of activity recognition algorithms, these algorithms need to be integrated with video search and retrieval methods in large databases.
               </p>
 
-              <h3>Activity Forecasting <button class="btn btn-primary" @click="showActivity = !showActivity">View</button></h3>
+              <h3>Activity Forecasting
+                <button class="btn btn-primary" @click="showActivity = !showActivity">
+                  <span v-if="!showActivity">+</span>
+                  <span v-else>-</span>
+                </button>
+              </h3>
               <div v-show="showActivity">
                 <img class="research-img" src="/img/research/Activity_Forecasting.png" alt="Context in Activity">
                 <p>
                     In this project, we investigate the problem of forecasting future activities in continuous videos. Ability to successfully forecast activities that are yet to be observed is a very important video understanding problem, and is starting to receive attention in the computer vision literature. An activity forecasting strategy that models the simultaneous and/or sequential nature of human activities on a graph and combines that with the interrelationship between  scene cues and dynamic target trajectories is explored.
                 </p>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showActivityPublications = !showActivityPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showActivityPublications = !showActivityPublications">
+                    <span v-if="!showActivityPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                   <ul class="list-group" v-show="showActivityPublications">
                       <li class="list-group-item" v-for="a in activityPublications" :key="a.name">
@@ -33,13 +44,25 @@
 
               <hr/>
 
-              <h3>Context-Aware Activity Recognition <button class="btn btn-primary" @click="showContent = !showContent">View</button></h3>
+              <h3>Context-Aware Activity Recognition
+                <button class="btn btn-primary" @click="showContent = !showContent">
+                  <span v-if="!showContent">+</span>
+                  <span v-else>-</span>
+                </button>
+              </h3>
               <div v-show="showContent">
+                <img class="research-img" src="/img/research/Context_Aware_Activity_Recognition.png" alt="Context Aware">
                 <p>
                     In this project, we are developing methods for recognition of complex activities in video. A core focus area has been on context-aware modeling and recognition strategies, where neighborhood information is exploited to recognize the activities on the targets of interest. We have also shown the utility of usage statistics in searching large video datasets.
                 </p>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showContentPublications = !showContentPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showContentPublications = !showContentPublications">
+                    <span v-if="!showContentPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                 <ul class="list-group" v-show="showContentPublications">
                     <li class="list-group-item" v-for="a in contentPublications" :key="a.name">

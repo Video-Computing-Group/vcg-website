@@ -22,13 +22,25 @@
                 </p>
               <hr/>
 
-              <h3>Video Analysis under Resource Constraints <button class="btn btn-primary" @click="showAnalysis = !showAnalysis">View</button></h3>
+              <h3>Video Analysis under Resource Constraints
+                <button class="btn btn-primary" @click="showAnalysis = !showAnalysis">
+                  <span v-if="!showAnalysis">+</span>
+                  <span v-else>-</span>
+                </button>
+              </h3>
               <div v-show="showAnalysis">
+                <img class="research-img" src="/img/research/Video_Analysis_under_Resource_Constraints.png">
                 <p>
                   Analysis of videos is known to be time-consuming and resource hungry. We are developing methods for scene understanding in video with limited resources. Specifically, we have developed methods for object detection and tracking that are aware of the resource constraints, as well as object and scene categorization methods which are computationally more efficient than many state-of-the-art methods.
                 </p>
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showAnalysisPublications = !showAnalysisPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showAnalysisPublications = !showAnalysisPublications">
+                    <span v-if="!showAnalysisPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
 
                 <ul class="list-group" v-show="showAnalysisPublications">
                     <li class="list-group-item" v-for="a in analysisPublications" :key="a.name">

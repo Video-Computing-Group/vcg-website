@@ -9,7 +9,12 @@
                 The goal of this project is identification, spatio-temporal modeling and recognition of dynamical patterns inherent in developmental biology through the use of novel computational tools in image analysis, statistical data aggregation, pattern recognition, machine learning and dynamical modeling. This will lead to the development of new methods for addressing some outstanding challenges in this area, i.e., computing cell lineages, identifying long-term patterns in the tracked output and learning functional models of the dynamics of cell growth and division. 
               </p>
 
-              <h3>Cell Tracking and Shape Modeling <button class="btn btn-primary" @click="showCell = !showCell">View</button></h3>
+              <h3>Cell Tracking and Shape Modeling
+                <button class="btn btn-primary" @click="showCell = !showCell">
+                  <span v-if="!showCell">+</span>
+                  <span v-else>-</span>
+                </button>
+              </h3>
               <div v-show="showCell">
                 <img class="research-img" src="/img/research/Graphical_Abstract.png" alt="Graphical Abstract">
                 <p>
@@ -24,7 +29,13 @@
                 </ul>
               
 
-                <h4><span class="publicationHeader">Sample Publications</span> <button class="btn btn-primary" @click="showBioPublications = !showBioPublications">Toggle</button></h4>
+                <h4>
+                  <span class="publicationHeader">Sample Publications</span>
+                  <button class="btn btn-primary" @click="showBioPublications = !showBioPublications">
+                    <span v-if="!showBioPublications">+</span>
+                    <span v-else>-</span>
+                  </button>
+                </h4>
                   <ul class="list-group" v-show="showBioPublications">
                       <li class="list-group-item" v-for="a in bioPublications" :key="a.name">
                       <a :href="a.link">
