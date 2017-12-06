@@ -3,19 +3,19 @@
     <div v-swiper:mySwiper="swiperOption">
       <div class="swiper-wrapper">
         <div class="swiper-slide" v-for="n in news" :key="n.name">
-          <a v-if="n.link.length > 0" :href="'/publications/' + n.link">
+          <a v-if="n.link.length > 0" :href="'publications/' + n.link">
             <div v-if="n.source" class="banner" :style="convertToHex(n.source)">
               <strong>{{ n.source }} <span v-if="n.type">- {{ n.type }}</span></strong>
             </div>
-            <img class="news" :src="'/img/featured_news/' + n.image" :alt="n.name">
+            <img class="news" :src="'img/featured_news/' + n.image" :alt="n.name">
           </a>
           <a v-else :href="n.externalLink">
             <div v-if="n.source" class="banner" :style="convertToHex(n.source)">
               <strong>{{ n.source }} <span v-if="n.type">- {{ n.type }}</span></strong>
             </div>
-            <img class="news" :src="'/img/featured_news/' + n.image" :alt="n.name">
+            <img class="news" :src="'img/featured_news/' + n.image" :alt="n.name">
           </a>
-          <a v-if="n.link.length > 0" :href="'/publications/' + n.link">
+          <a v-if="n.link.length > 0" :href="'publications/' + n.link">
             {{ n.name }} 
           </a>
           <a v-else :href="n.externalLink">

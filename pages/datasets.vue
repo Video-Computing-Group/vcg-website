@@ -5,15 +5,15 @@
             <div class="col-md-6 dataset">
                 <h2>Videoweb Activities Dataset</h2>
                 <p>The Videoweb Activities Dataset has about 2.5 hours of video data consisting of dozens of activities along with annotation. The data is now available publicly for research. Please download and submit the following release form to gain access to the dataset. Below are some samples from the data.</p>
-                <a class="btn btn-primary" href="/datasets/RELEASE_OF_VIDEWEB_ACTIVITIES_DATASET.pdf">Release Form</a>
+                <a class="btn btn-primary" href="datasets/RELEASE_OF_VIDEWEB_ACTIVITIES_DATASET.pdf">Release Form</a>
                 <a class="btn btn-primary" href="https://svn.engr.ucr.edu/vcSVN/VideoWebData">Login to Videoweb Activities Dataset</a>
                 <p><strong>Please refer to the following article when using this dataset:</strong><br/>
                 <small>G. Denina, B. Bhanu, H. Nguyen, C. Ding, A. Kamal, C. Ravishankar, A. Roy-Chowdhury, A. Ivers, and B. Varda, "VideoWeb Dataset for Multi-camera Activities and Non-verbal Communication", in Distributed Video Sensor Networks (Eds. B. Bhanu, C. Ravishankar, A. Roy-Chowdhury, H. Aghajan, D. Terzopoulos), Springer 2010.
                 This data collection was partially supported by the Aware Building project under ONR-N00014-07-C-0311 and ARO grant W911NF-07-1-0485.</small></p>
-                <a class="btn btn-primary" href="/datasets/scene1.mpg">Sample Scene 1</a>
-                <a class="btn btn-primary" href="/datasets/scene2.mpg">Sample Scene 2</a>
-                <a class="btn btn-primary" href="/datasets/scene3.mpg">Sample Scene 3</a>
-                <a class="btn btn-primary" href="/datasets/scene4.mpg">Sample Scene 4</a>
+                <a class="btn btn-primary" href="datasets/scene1.mpg">Sample Scene 1</a>
+                <a class="btn btn-primary" href="datasets/scene2.mpg">Sample Scene 2</a>
+                <a class="btn btn-primary" href="datasets/scene3.mpg">Sample Scene 3</a>
+                <a class="btn btn-primary" href="datasets/scene4.mpg">Sample Scene 4</a>
             </div>
 
             <div class="col-md-6 dataset">

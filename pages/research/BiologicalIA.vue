@@ -4,7 +4,7 @@
         <div class="container row">
           <div class="col-md-12">
               <h2 id="name">Biological Image Analysis</h2>
-              <img class="research-img" src="/img/research/image012.jpg">
+              <img class="research-img" src="img/research/image012.jpg">
               <p>
                 The goal of this project is identification, spatio-temporal modeling and recognition of dynamical patterns inherent in developmental biology through the use of novel computational tools in image analysis, statistical data aggregation, pattern recognition, machine learning and dynamical modeling. This will lead to the development of new methods for addressing some outstanding challenges in this area, i.e., computing cell lineages, identifying long-term patterns in the tracked output and learning functional models of the dynamics of cell growth and division. 
               </p>
@@ -16,16 +16,16 @@
                 </button>
               </h3>
               <div v-show="showCell">
-                <img class="research-img" src="/img/research/Graphical_Abstract.png" alt="Graphical Abstract">
+                <img class="research-img" src="img/research/Graphical_Abstract.png" alt="Graphical Abstract">
                 <p>
                   Local spatio-temporal co-ordination of cell growth and cell division is important for proper development of organs in both plant and animal systems. The focus of this inter-disciplinary research project is in identification, spatio-temporal modeling and recognition of dynamical patterns inherent in developmental biology through the use of novel computational tools in image analysis, statistical data aggregation, pattern recognition, machine learning and dynamical modeling. This will lead to the development of new methods for addressing some outstanding challenges in this area, i.e., computing cell lineages, identifying long-term patterns in the tracked output and learning functional models of the dynamics of cell growth and division. The computational tool-kit will enable us to gain new insights into the active interplay between cell growth, cell division and changes in gene expression patterns in dynamic developmental fields.This project involves active collaboration with Prof. G. Venugopal Reddy of Plant Biology at UCR.
                 </p>
 
                 <u>Code:</u>
                 <ul>
-                  <li><a href="/img/research/Context-CRF-Tracker.zip">Context-aware spatio-temporal cell tracker</a></li>
-                  <li><a href="/img/research/AQVT.zip">Matlab code for cell-resolution 3D reconstruction</a></li>
-                  <li><a href="/img/research/celltracking.php">Matlab code for "local graph" based cell tracking</a></li>
+                  <li><a href="img/research/Context-CRF-Tracker.zip">Context-aware spatio-temporal cell tracker</a></li>
+                  <li><a href="img/research/AQVT.zip">Matlab code for cell-resolution 3D reconstruction</a></li>
+                  <li><a href="img/research/celltracking.php">Matlab code for "local graph" based cell tracking</a></li>
                 </ul>
               
 

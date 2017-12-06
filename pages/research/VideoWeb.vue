@@ -4,7 +4,7 @@
         <div class="container row">
           <div class="col-md-12">
               <h2 id="name">Situational Awareness Under Resource Constraints</h2>
-              <img class="research-img" src="/img/research/Overview.png" alt="Overview">
+              <img class="research-img" src="img/research/Overview.png" alt="Overview">
                 <p>
                   The goal of this project is to facilitate the timely retrieval of dynamic situational awareness information from field deployed information-rich sensors by an operational center in disaster recovery or search and rescue missions, which are typically characterized by resource-constrained uncertain environments. Towards realizing a networked system that facilitates the retrieval of time-critical, operation-relevant situational awareness this project will address the following (non-exhaustive list) challenges: (a) How do we intelligently activate field sensors and acquire and process data to extract semantically relevant information that is easily interpreted? (b) How do we formulate expressive and effective queries that enable the near-time retrieval of the relevant situational awareness information while adhering to resource constraints? (c) How do we impose a network structure that facilitates cost-effective query propagation and response retrieval? The project encompasses the following three highly inter-related tasks:
                 </p>

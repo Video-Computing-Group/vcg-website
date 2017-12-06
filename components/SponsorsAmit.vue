@@ -4,7 +4,7 @@
     <p class="justify-text">The Video Computing Group graciously acknowledges the funding received from a number of government agencies and private corporations.</p>
     <div class="row">
       <div class="col-md-12 col-xs-12">
-        <img class="news" src="/img/sponsors/all-sponsors.png" alt="NSF">
+        <img class="news" src="img/sponsors/all-sponsors.png" alt="VCG Sponsors">
       </div>
     </div>
 </div>
