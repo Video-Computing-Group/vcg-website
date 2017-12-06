@@ -8,10 +8,6 @@
                   Automated visual scene understanding has remained a very hard problem for uncontrolled environments, like security, surveillance, and disaster response operations. For the foreseeable future, it is natural to expect that humans and computer vision systems will be working together in applications like disaster response. This project explores the fundamental scientific challenges in the coordination between humans and robots for tasks in computer vision and robotics.  In this project, we use the term Human-Robot Visual Network (HRVN) to refer to such human-robot teams employed for the task of scene understanding. Below are some of the research problems we have worked on within the broad scope of this project.
               </p>
               <img class="research-img" src="/img/research/HCI_network.png" alt="HCI Network">
-              <p>
-                  Towards meeting these objectives, we propose a research program for wide-area scene understanding using a team comprising humans and robots. The robots will be equipped with sensors (e.g., visual) providing information-rich data that will enable scene understanding. These robots will maneuver, collect data, analyze their data along with information from other team members, and report to the humans the information deemed important, according to specified criteria. The system design will ensure that the decisions, made by each of the robots in a distributed fashion, yield coordination of actions between team members, human or robotic. In this project, we use the term Human-Robot Visual Network (HRVN) to refer to the team employed for the task of scene understanding. The vision sensors will be pan-tilt-zoom (PTZ) cameras with the ability to capture high-fidelity images through active control of the PTZ parameters and positioning of the mobile platform.
-              </p>
-
               <hr/>
               <h3>Active Learning 
                 <button class="btn btn-primary" @click="showActiveLearning = !showActiveLearning">

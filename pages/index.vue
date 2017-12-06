@@ -1,7 +1,6 @@
 <template>
   <div class="inherit-height">
     <div id="home-body">
-      <PromoImagesAmit></PromoImagesAmit>
       <AmitHomeBody></AmitHomeBody>
       <NewsAmit></NewsAmit>
       <Sponsors></Sponsors>
@@ -12,7 +11,6 @@
 <script>
 import AmitHomeBody from '~/components/HomeBodyAmit.vue'
 import NewsAmit from '~/components/NewsAmitDev.vue'
-import PromoImagesAmit from '~/components/PromoImagesAmit.vue'
 import Sponsors from '~/components/SponsorsAmit.vue'
 
 // Needed for SSR vue-awesome-swiper
@@ -28,7 +26,6 @@ export default {
   components: {
     'AmitHomeBody': AmitHomeBody,
     'NewsAmit': NewsAmit,
-    'PromoImagesAmit': PromoImagesAmit,
     'Sponsors': Sponsors
   },
   name: 'AmitHeader'
