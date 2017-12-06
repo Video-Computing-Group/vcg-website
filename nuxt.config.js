@@ -43,4 +43,7 @@ module.exports = {
       }
     }
   }
+  // router: {
+  //   base: '/amit/'
+  // }
 }
