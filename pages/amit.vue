@@ -3,7 +3,7 @@
       <div id="home-body">
         <div class="container row">
           <div class="col-md-3 col-xs-6">
-              <img id="profile-picture" src="img/people/amit.jpg" alt="Amit">
+              <img id="profile-picture" src="/img/people/amit.jpg" alt="Amit">
           </div>
           <div class="col-md-4">
               <h3 id="name">Amit K. Roy-Chowdhury</h3>

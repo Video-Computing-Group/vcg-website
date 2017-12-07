@@ -6,7 +6,7 @@
               <h2 id="name">Wide Area Scene Analysis in Vision Network</h2>
               <center>
                 <video id="video" width="50%" controls>
-                    <source src="img/research/Tracking_results.mp4" type="video/mp4">
+                    <source src="/img/research/Tracking_results.mp4" type="video/mp4">
                     Your browser does not support HTML5 video
                 </video>
               </center>
@@ -24,7 +24,7 @@
                 </h3>
               
               <div v-show="showCameraNetwork">
-                <img class="research-img" src="img/research/Camera_Network_Tracking_and_Re-identification.png"/>
+                <img class="research-img" src="/img/research/Camera_Network_Tracking_and_Re-identification.png"/>
                 <p>
                     In many computer vision tasks it is often desirable to identify and monitor people as they move through a network of non-overlapping cameras. This is especially challenging as for a network of cameras issues such as changes of scale, illumination, viewing angle and pose start to arise. In this project we try to address this inter camera person association problem. We have shown that incorporating a consistency requirement of re-identification results across the camera network can significantly improve the re-identification performance even in the challenging scenarios where the illumination changes between the cameras are large.
                 </p>
@@ -59,7 +59,7 @@
               </button>
             </h3>
             <div v-show="showDistributed">
-              <img class="research-img" src="img/research/distributed_estimation.png"/>
+              <img class="research-img" src="/img/research/distributed_estimation.png"/>
                 <p>
                     In this project, we are developing methods for estimation and control in distributed camera networks. Specifically, we have looked at the following problems.
                 </p>
@@ -71,8 +71,8 @@
                 <h4>Demos</h4>
                 <p>Information-Weighted Consensus in a Distributed Camera Network</p>
                 <ul>
-                    <li><a href="img/research/ICF_Matlab_Code.zip">Matlab code for Distributed Single Target Tracking</a></li>
-                    <li><a href="img/research/MTIC_Matlab_Code.zip">Matlab code for Distributed Multi-target Tracking</a></li>
+                    <li><a href="../../../static/img/research/ICF_Matlab_Code.zip">Matlab code for Distributed Single Target Tracking</a></li>
+                    <li><a href="../../../static/img/research/MTIC_Matlab_Code.zip">Matlab code for Distributed Multi-target Tracking</a></li>
                 </ul>
 
                 <h4>
@@ -108,7 +108,7 @@
             <div v-show="showActiveSensing">
               <center>
                 <video id="video" width="50%" controls>
-                    <source src="img/research/cameranetworkcontrol.mp4" type="video/mp4">
+                    <source src="/img/research/cameranetworkcontrol.mp4" type="video/mp4">
                     Your browser does not support HTML5 video
                 </video>
               </center>
@@ -160,7 +160,7 @@ export default {
             'Unsupervised Adaptive Re-identification in Open World Dynamic Camera Networks',
           note:
             'R. Panda, A. H. Bhuiyan, V. Murino and A. Roy-Chowdhury, IEEE Conf. on Computer Vision and Pattern Recognition, 2017 (Spotlight).',
-          link: 'publications/cvpr2017reid.pdf',
+          link: '/publications/cvpr2017reid.pdf',
           year: '2017'
         },
         {
@@ -168,11 +168,11 @@ export default {
             'Continuous adaptation of multi-camera person identification models through sparse non-redundant representative selection',
           note:
             'A. Das, R. Panda, A. Roy-Chowdhury, Computer Vision and Image Understanding, 2016.',
-          link: 'publications/CVIU_2016_Abir.pdf',
+          link: '/publications/CVIU_2016_Abir.pdf',
           extras: [
             {
               name: 'Supplemental Material',
-              path: 'publications/Supplementary_CVIU_2016_Abir.pdf'
+              path: '/publications/Supplementary_CVIU_2016_Abir.pdf'
             }
           ],
           year: '2016'
@@ -181,25 +181,25 @@ export default {
           name: 'Temporal Model Adaptation for Person Re-Identification',
           note:
             'N. Martinel, C. Micheloni, A. Roy-Chowdhury, European Conf. on Computer Vision, 2016.',
-          link: 'publications/niki-eccv16.pdf',
+          link: '/publications/niki-eccv16.pdf',
           year: '2016'
         },
         {
           name: 'Tracking multiple interacting targets in a camera network',
           note:
             'S. Zhang, Y. Zhu, and A. K. Roy-Chowdhury, Computer Vision and Image Understanding special issue on Image Understanding for Real-world Distributed Video Networks. 2015.',
-          link: 'publications/Shu CVIU final.pdf',
+          link: '/publications/Shu CVIU final.pdf',
           year: '2015'
         },
         {
           name: 'Re-Identification in the Function Space of Feature Warps',
           note:
             'A. Das, N. Martinel, C. Micheloni, A. Roy-Chowdhury, IEEE Trans. on Pattern Analysis and Machine Intelligence, 2015.',
-          link: 'publications/PAMI14-Reid.pdf',
+          link: '/publications/PAMI14-Reid.pdf',
           extras: [
             {
               name: 'Supplemental Material',
-              path: 'publications/Supplementary-PAMI2014-Reid.pdf'
+              path: '/publications/Supplementary-PAMI2014-Reid.pdf'
             }
           ],
           year: '2015'
@@ -214,7 +214,7 @@ export default {
             {
               name: 'CamNeT Dataset',
               path:
-                'publications/0B7uDdIqGrZlVfmdlOFZyUEg3RHUxaUdSaGVGTTNDT3R0dUNLSFdCSkZYVWk0dE16TFg4cTA.html'
+                '/publications/0B7uDdIqGrZlVfmdlOFZyUEg3RHUxaUdSaGVGTTNDT3R0dUNLSFdCSkZYVWk0dE16TFg4cTA.html'
             }
           ],
           year: '2015'
@@ -223,15 +223,15 @@ export default {
           name: 'Consistent Re-identification In A Camera Network',
           note:
             'A. Das, A. Chakraborty, A. Roy-Chowdhury, European Conf. on Computer Vision, 2014.',
-          link: 'publications/eccv2014-2.pdf',
+          link: '/publications/eccv2014-2.pdf',
           extras: [
             {
               name: 'Supplemental Material',
-              path: 'publications/NCR_ECCV2014_Supplementary.pdf'
+              path: '/publications/NCR_ECCV2014_Supplementary.pdf'
             },
             {
               name: 'Code',
-              path: 'publications/NCR_Code.html'
+              path: '/publications/NCR_Code.html'
             }
           ],
           year: '2014'
@@ -241,7 +241,7 @@ export default {
             'A Stochastic Graph Evolution Framework for Robust Multi-Target Tracking,',
           note:
             'B. Song, T. Jeng, E. Staudt, A. Roy-Chowdhury, European Conference on Computer Vision, 2010.',
-          link: 'publications/eccv2010.pdf',
+          link: '/publications/eccv2010.pdf',
           extras: [],
           year: '2010'
         },
@@ -250,7 +250,7 @@ export default {
             'Distributed Multi-Target Tracking In A Self-Configuring Camera Network',
           note:
             'C. Soto, B. Song, A. Roy-Chowdhury, IEEE Conf. on Computer Vision and Pattern Recognition, 2009.',
-          link: 'publications/cvpr09.pdf',
+          link: '/publications/cvpr09.pdf',
           extras: [],
           year: '2009'
         },
@@ -259,7 +259,7 @@ export default {
             'Robust Tracking in A Camera Network: A Multi-Objective Optimization Framework',
           note:
             'B. Song and A. Roy-Chowdhury, IEEE Journal on Selected Topics in Signal Processing: Special Issue on Distributed Processing in Vision Networks, August 2008.',
-          link: 'publications/stamp.html',
+          link: '/publications/stamp.html',
           extras: [],
           year: '2008'
         },
@@ -267,7 +267,7 @@ export default {
           name: 'Stochastic Adaptive Tracking In A Camera Network',
           note:
             'B. Song, A. Roy-Chowdhury, IEEE Intl. Conf. on Computer Vision, 2007.',
-          link: 'publications/iccv07.pdf',
+          link: '/publications/iccv07.pdf',
           extras: [],
           year: '2007'
         }
@@ -280,11 +280,11 @@ export default {
             'Distributed Multi-target Tracking and Data Association in Vision Networks',
           note:
             'A. T. Kamal, J. H. Bappy, J. A. Farrell, A. Roy-Chowdhury, IEEE Trans. on Pattern Analysis and Machine Intelligence, 2016.',
-          link: 'publications/MTIC-TPAMI.pdf',
+          link: '/publications/MTIC-TPAMI.pdf',
           extras: [
             {
               name: 'Code',
-              path: 'publications/MTIC_Matlab_Code.zip'
+              path: '/publications/MTIC_Matlab_Code.zip'
             }
           ],
           year: '2016'
@@ -294,11 +294,11 @@ export default {
             'Information Weighted Consensus Filters and their Application in Distributed Camera Networks',
           note:
             'A. Kamal, J. A. Farrell, A. Roy-Chowdhury, IEEE Trans. on Automatic Control, 2013.',
-          link: 'publications/ICF_TAC.pdf',
+          link: '/publications/ICF_TAC.pdf',
           extras: [
             {
               name: 'Code',
-              path: 'publications/ICF_Matlab_Code.zip'
+              path: '/publications/ICF_Matlab_Code.zip'
             }
           ],
           year: '2013'
@@ -307,15 +307,15 @@ export default {
           name: 'Information Consensus for Distributed Multi-Target Tracking',
           note:
             'A. Kamal, J. A. Farrell, A. Roy-Chowdhury, IEEE Conf. on Computer Vision and Pattern Recognition, 2013.',
-          link: 'publications/CVPR2013_MTIC.pdf',
+          link: '/publications/CVPR2013_MTIC.pdf',
           extras: [
             {
               name: 'Supplemental Material',
-              path: 'publication/CVPR2013_MTIC_Supplementary.pdf'
+              path: '/publication/CVPR2013_MTIC_Supplementary.pdf'
             },
             {
               name: 'Code',
-              path: 'publication/MTIC_Matlab_Code (1).zip'
+              path: '/publication/MTIC_Matlab_Code (1).zip'
             }
           ],
           year: '2013'
@@ -324,11 +324,11 @@ export default {
           name: 'Information Weighted Consensus',
           note:
             'A. Kamal, J. A. Farrell, A. Roy-Chowdhury, IEEE Controls and Decision Conf., 2012.',
-          link: 'publications/CDC_2012.pdf',
+          link: '/publications/CDC_2012.pdf',
           extras: [
             {
               name: 'Code',
-              path: 'publications/CameraNetworks.php'
+              path: '/publications/CameraNetworks.php'
             }
           ],
           year: '2012'
@@ -338,7 +338,7 @@ export default {
             'Integrated Sensing and Analysis for Wide Area Scene Understanding',
           note:
             'B. Song, C. Ding, A. Kamal, J. Farrell, A. Roy-Chowdhury, Signal Processing Magazine, May 2011.',
-          link: 'publications/SPM_camnetwork.pdf',
+          link: '/publications/SPM_camnetwork.pdf',
           extras: [],
           year: '2011'
         },
@@ -347,7 +347,7 @@ export default {
             'Tracking and Activity Recognition Through Consensus in Distributed Camera Networks',
           note:
             'B. Song, A. Kamal, C. Soto, C. Ding, J. Farrell, A. Roy-Chowdhury, IEEE Trans. on Image Processing, 2010.',
-          link: 'publications/TIP_consensus2010.pdf',
+          link: '/publications/TIP_consensus2010.pdf',
           extras: [],
           year: '2010'
         },
@@ -356,7 +356,7 @@ export default {
             'Distributed Multi-Target Tracking In A Self-Configuring Camera Network',
           note:
             'C. Soto, B. Song, A. Roy-Chowdhury, IEEE Conf. on Computer Vision and Pattern Recognition, 2009.',
-          link: 'publications/cvpr09.pdf',
+          link: '/publications/cvpr09.pdf',
           extras: [],
           year: '2009'
         },
@@ -365,7 +365,7 @@ export default {
             'Robust Tracking in A Camera Network: A Multi-Objective Optimization Framework',
           note:
             'B. Song and A. Roy-Chowdhury, IEEE Journal on Selected Topics in Signal Processing: Special Issue on Distributed Processing in Vision Networks, August 2008.',
-          link: 'publications/stamp.html',
+          link: '/publications/stamp.html',
           extras: [],
           year: '2008'
         },
@@ -373,7 +373,7 @@ export default {
           name: 'Stochastic Adaptive Tracking In A Camera Network',
           note:
             'B. Song, A. Roy-Chowdhury, IEEE Intl. Conf. on Computer Vision, 2007.',
-          link: 'publications/iccv07.pdf',
+          link: '/publications/iccv07.pdf',
           extras: [],
           year: '2007'
         }
@@ -386,7 +386,7 @@ export default {
             'Opportunistic Image Acquisition of Individual and Group Activities in a Distributed Camera Network',
           note:
             'C. Ding, J. H. Bappy, J. A. Farrell, A. Roy-Chowdhury, IEEE Transactions on Circuits and Systems for Video Technology, 2016.',
-          link: 'publications/TCSVT_2016.pdf',
+          link: '/publications/TCSVT_2016.pdf',
           year: '2016'
         },
         {
@@ -394,7 +394,7 @@ export default {
             'Distributed Constrained Optimization for Bayesian Opportunistic Visual Sensing',
           note:
             'A. Morye, C. Ding, J. A. Farrell, A. Roy-Chowdhury, IEEE Trans. on Control Systems Technology, 2014.',
-          link: 'publications/akshay_tcst.pdf',
+          link: '/publications/akshay_tcst.pdf',
           extras: [],
           year: '2014'
         },
@@ -402,7 +402,7 @@ export default {
           name: 'Collaborative Sensing In A Distributed PTZ Camera Network',
           note:
             'C. Ding, B. Song, A. Morye, J. A. Farrell, A. Roy-Chowdhury, IEEE Trans. on Image Processing, 2012.',
-          link: 'publications/tip_cding2012.pdf',
+          link: '/publications/tip_cding2012.pdf',
           extras: [],
           year: '2012'
         },
@@ -410,7 +410,7 @@ export default {
           name: 'Coordinated Sensing and Tracking for Mobile Camera Platforms',
           note:
             'C. Ding, A. Morye, J. A. Farrell, A. Roy-Chowdhury, American Controls Conf., 2012.',
-          link: 'publications/ACC_2012.pdf',
+          link: '/publications/ACC_2012.pdf',
           extras: [],
           year: '2012'
         }

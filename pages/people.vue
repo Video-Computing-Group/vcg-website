@@ -9,7 +9,7 @@
             <div class="row">
               <div class="person">
                 <div class="col-md-3 col-xs-3">
-                  <img src="img/people/amit.jpg" class="img-responsive"/>
+                  <img src="/img/people/amit.jpg" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
                   <h4><strong>Amit Roy-Chowdhury</strong></h4>
@@ -32,7 +32,7 @@
             <div class="row">
               <div class="person" >
                 <div class="col-md-3 col-xs-3" :key="member.name">
-                  <img :src="'img/people/' + member.image" class="img-responsive"/>
+                  <img :src="'/img/people/' + member.image" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
                   <h4><strong>{{member.name}}</strong></h4>
@@ -54,7 +54,7 @@
             <div class="row">
               <div class="person" >
                 <div class="col-md-3 col-xs-3" :key="member.name">
-                  <img :src="'img/people/' + member.image" class="img-responsive"/>
+                  <img :src="'/img/people/' + member.image" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
                   <h4><strong>{{member.name}}</strong></h4>
@@ -77,7 +77,7 @@
             <div class="row">
               <div class="person" >
                 <div class="col-md-3 col-xs-3" :key="member.name">
-                  <img :src="'img/people/' + member.image" class="img-responsive"/>
+                  <img :src="'/img/people/' + member.image" class="img-responsive"/>
                 </div>
                 <div class="col-md-9">
                   <h4><strong>{{member.name}}</strong></h4>

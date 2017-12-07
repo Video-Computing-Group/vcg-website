@@ -1,9 +1,9 @@
 <template>
   <div class="row header-parent">
-        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="img/amitrc_cover.jpg" alt="The Team"></div>
-        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="img/research/Activity_Recognition_and_Prediction.png" alt=""></div>
-        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="img/top_row_3.png" alt=""></div>
-        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="img/top_row_4.png" alt=""></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/amitrc_cover.jpg" alt="The Team"></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/research/Activity_Recognition_and_Prediction.png" alt=""></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/top_row_3.png" alt=""></div>
+        <div class="col-md-3 col-xs-3 header-img-container"><img class="header-img" src="/img/top_row_4.png" alt=""></div>
       </div>
 </template>
 
