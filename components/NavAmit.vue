@@ -51,7 +51,7 @@ export default {
       },
       {
         name: 'People',
-        link: '/vcgpeople'
+        link: '/people'
       }],
       publications: [
         {
