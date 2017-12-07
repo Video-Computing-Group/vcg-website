@@ -1,113 +1,121 @@
 <template>
   <div id="data" class="inherit-height">
       <div id="home-body">
-        <div class="container row">
-          <div class="col-md-12 text-center">
-            <h2>Faculty Members</h2>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="person">
-                <div class="col-md-3 col-xs-3">
-                  <img src="/img/people/amit.jpg" class="img-responsive"/>
-                </div>
-                <div class="col-md-9">
-                  <h4><strong>Amit Roy-Chowdhury</strong></h4>
-                  <p>Professor, Electrical and Computer Engineering</p>
-                </div>
-                <div class="col-md-12 personActions">
-                  <a href="mailto:amitrc@ee.ucr.edu"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
-                  <router-link to="/amit"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</router-link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="container">
 
-        <div class="container row">
-          <div class="col-md-12 text-center">
-            <h2>Graduate Students</h2>
-          </div>
-          <div class="col-md-6 col-xs-12 personContainer" v-for="member in grads" :key="member.name">
-            <div class="row">
-              <div class="person" >
-                <div class="col-md-3 col-xs-3" :key="member.name">
-                  <img :src="'/img/people/' + member.image" class="img-responsive"/>
-                </div>
-                <div class="col-md-9">
-                  <h4><strong>{{member.name}}</strong></h4>
-                  <p>{{member.position}}</p>
-                </div>
-                <div class="col-md-12 personActions">
-                  <a v-if="member.contact.email.length > 0" :href="'mailto:' + member.contact.email"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
-                  <a v-if="member.contact.website.length > 0" :href="member.contact.website"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</a>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Faculty Members</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="person">
+                  <div class="col-md-3 col-xs-3">
+                    <img src="/img/people/amit.jpg" class="img-responsive"/>
+                  </div>
+                  <div class="col-md-9">
+                    <h4><strong>Amit Roy-Chowdhury</strong></h4>
+                    <p>Professor, Electrical and Computer Engineering</p>
+                  </div>
+                  <div class="col-md-12 personActions">
+                    <a href="mailto:amitrc@ee.ucr.edu"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
+                    <router-link to="/amit"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</router-link>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container row">
-          <div class="col-md-12 text-center">
-            <h2>Undergradute Students</h2>
-          </div>
-          <div class="col-md-6 personContainer" v-for="member in undergrads" :key="member.name">
-            <div class="row">
-              <div class="person" >
-                <div class="col-md-3 col-xs-3" :key="member.name">
-                  <img :src="'/img/people/' + member.image" class="img-responsive"/>
-                </div>
-                <div class="col-md-9">
-                  <h4><strong>{{member.name}}</strong></h4>
-                  <p>{{member.position}}</p>
-                  <p v-if="member.contact.mobile.length > 0" disabled><span class="fa fa-phone"></span> {{member.contact.mobile}}</p>
-                </div>
-                <div class="col-md-12 personActions">
-                  <a v-if="member.contact.email.length > 0" :href="'mailto:' + member.contact.email"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
-                  <a v-if="member.contact.website.length > 0" :href="member.contact.website"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</a>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Graduate Students</h2>
+            </div>
+            <div class="col-md-6 col-xs-12 personContainer" v-for="member in grads" :key="member.name">
+              <div class="row">
+                <div class="person" >
+                  <div class="col-md-3 col-xs-3" :key="member.name">
+                    <img :src="'/img/people/' + member.image" class="img-responsive"/>
+                  </div>
+                  <div class="col-md-9">
+                    <h4><strong>{{member.name}}</strong></h4>
+                    <p>{{member.position}}</p>
+                  </div>
+                  <div class="col-md-12 personActions">
+                    <a v-if="member.contact.email.length > 0" :href="'mailto:' + member.contact.email"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
+                    <a v-if="member.contact.website.length > 0" :href="member.contact.website"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container row">
-          <div class="col-md-12 text-center">
-            <h2>Visiting Scholars</h2>
-          </div>
-          <div class="col-md-6 personContainer" v-for="member in visitors" :key="member.name">
-            <div class="row">
-              <div class="person" >
-                <div class="col-md-3 col-xs-3" :key="member.name">
-                  <img :src="'/img/people/' + member.image" class="img-responsive"/>
-                </div>
-                <div class="col-md-9">
-                  <h4><strong>{{member.name}}</strong></h4>
-                  <p>{{member.position}}</p>
-                  <p v-if="member.contact.mobile.length > 0" disabled><span class="fa fa-phone"></span> {{member.contact.mobile}}</p>
-                </div>
-                <div class="col-md-12 personActions">
-                  <a v-if="member.contact.email.length > 0" :href="'mailto:' + member.contact.email"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
-                  <a v-if="member.contact.website.length > 0" :href="member.contact.website"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</a>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Undergradute Students</h2>
+            </div>
+            <div class="col-md-6 personContainer" v-for="member in undergrads" :key="member.name">
+              <div class="row">
+                <div class="person" >
+                  <div class="col-md-3 col-xs-3" :key="member.name">
+                    <img :src="'/img/people/' + member.image" class="img-responsive"/>
+                  </div>
+                  <div class="col-md-9">
+                    <h4><strong>{{member.name}}</strong></h4>
+                    <p>{{member.position}}</p>
+                    <p v-if="member.contact.mobile.length > 0" disabled><span class="fa fa-phone"></span> {{member.contact.mobile}}</p>
+                  </div>
+                  <div class="col-md-12 personActions">
+                    <a v-if="member.contact.email.length > 0" :href="'mailto:' + member.contact.email"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
+                    <a v-if="member.contact.website.length > 0" :href="member.contact.website"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container row">
-          <div class="col-md-12 text-center">
-            <h2>Former Students and Research Collaborators</h2>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Visiting Scholars</h2>
+            </div>
+            <div class="col-md-6 personContainer" v-for="member in visitors" :key="member.name">
+              <div class="row">
+                <div class="person" >
+                  <div class="col-md-3 col-xs-3" :key="member.name">
+                    <img :src="'/img/people/' + member.image" class="img-responsive"/>
+                  </div>
+                  <div class="col-md-9">
+                    <h4><strong>{{member.name}}</strong></h4>
+                    <p>{{member.position}}</p>
+                    <p v-if="member.contact.mobile.length > 0" disabled><span class="fa fa-phone"></span> {{member.contact.mobile}}</p>
+                  </div>
+                  <div class="col-md-12 personActions">
+                    <a v-if="member.contact.email.length > 0" :href="'mailto:' + member.contact.email"  class="btn btn-primary btn-sm"><span class="fa fa-envelope-o"></span> Email</a>
+                    <a v-if="member.contact.website.length > 0" :href="member.contact.website"  class="btn btn-primary btn-sm"><span class="fa fa-globe"></span> Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <ul class="group-list">
-            <li class="group-list-item" v-for="a in alumni" :key="a.name">
-              <strong>{{ a.name }}</strong> ({{ a.degree }}) <br>
-              {{ a.position }} <br>
-              <span v-if="a.thesis.length > 0">
-                Thesis: <a v-if="a.thesisLink.length > 0" :href="'static/thesis/' + a.thesisLink">{{ a.thesis }}</a>
-                        <span v-else>{{ a.thesis }}</span>
-              </span>
-            </li>
-          </ul>
+          
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Former Students and Research Collaborators</h2>
+            </div>
+            <ul class="group-list">
+              <li class="group-list-item" v-for="a in alumni" :key="a.name">
+                <strong>{{ a.name }}</strong> ({{ a.degree }}) <br>
+                {{ a.position }} <br>
+                <span v-if="a.thesis.length > 1">
+                  Thesis: <a v-if="a.thesisLink.length > 1" :href="'/thesis/' + a.thesisLink">{{ a.thesis }}</a>
+                          <span v-else>{{ a.thesis }}</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
+    </div>
   </div>
 </template>
 
@@ -115,7 +123,6 @@
 export default {
   data: function () {
     return {
-      title: 'People',
       facultyMembers: [
         {
           name: 'Amit Roy-Chowdhury',
@@ -135,7 +142,7 @@ export default {
           position: 'Assistant Professor at Cal State Northridge',
           degree: 'PhD 2016',
           thesis: 'Video Bioinformatics with Applications in Cell Biology and Entomology',
-          thesisLink: ''
+          thesisLink: '.'
         },
         {
           name: 'Mahmudul Hasan',
@@ -239,36 +246,36 @@ export default {
           name: 'Elliot Staudt',
           position: 'Currently at Mayachitra Inc.',
           degree: 'MS 2015',
-          thesis: '',
-          thesisLink: ''
+          thesis: '.',
+          thesisLink: '.'
         },
         {
           name: 'Utkarsh Gaur',
           position: 'Currently at Bisque Lab, UCSB',
           degree: 'MS 2010',
-          thesis: '',
-          thesisLink: ''
+          thesis: '.',
+          thesisLink: '.'
         },
         {
           name: 'Ting Yeuh Jeng',
-          position: '',
+          position: 'N/A',
           degree: 'MS 2009',
-          thesis: '',
-          thesisLink: ''
+          thesis: '.',
+          thesisLink: '.'
         },
         {
           name: 'Cristian Soto',
-          position: '',
+          position: 'N/A',
           degree: 'MS Student 2007-2008',
-          thesis: '',
-          thesisLink: ''
+          thesis: '.',
+          thesisLink: '.'
         },
         {
           name: 'Luis Gonzalez-Argueta',
-          position: '',
+          position: 'N/A',
           degree: 'MS Student 2007-2009',
-          thesis: '',
-          thesisLink: ''
+          thesis: '.',
+          thesisLink: '.'
         }
       ],
       undergrads: [
