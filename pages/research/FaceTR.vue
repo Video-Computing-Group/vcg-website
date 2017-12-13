@@ -116,31 +116,80 @@ export default {
 
           ],
           year: '2013'
+        },
+        {
+          name: 'Quantitative Modeling of Artists Styles in Renaissance Face Portraiture',
+          note: 'R. Srinivasan, A. Roy-Chowdhury, C.Rudolph, J. Kohl, 2nd International Workshop on Historical Document Imaging and Processing, 2013.',
+          link: '/publications/icdar2013.pdf',
+          extras: [
+
+          ],
+          year: '2013'
         }
       ],
       showFace: false,
       showFacePublications: false,
       facePublications: [
         {
-          name: 'Computerized Face Recognition in Renaissance Portrait Art',
-          note: 'R. Srinivasan, C. Rudolph, and A. K. Roy-Chowdhury, Signal Processing Magazine. 2015.',
-          link: '/publications/spm2015.pdf',
+          name: 'A Physics-Based Analysis of Image Appearance Models',
+          note: 'Y. Xu, A. Roy-Chowdhury, IEEE Trans. on Pattern Analysis and Machine Intelligence, August 2011.',
+          link: '/publications/PAMI_2011.pdf',
           extras: [
             {
               name: 'Supplmental Material',
-              path: '/publications/SPM2015_SM.pdf'
+              path: '/publications/SupplementaryMaterial_PAMI2011.pdf'
             }
           ],
-          year: '2015'
+          year: '2011'
         },
         {
-          name: 'Recognizing the Royals - Leveraging Computerized Face Recognition for Identifying Subjects in Ancient Artworks',
-          note: 'R. Srinivasan, A. Roy-Chowdhury, C. Rudolph, J. Kohl, ACM Intl. Conf. on Multimedia, 2013.',
-          link: '/publications/acm-mm2013.pdf',
-          extras: [
-
-          ],
-          year: '2013'
+          name: 'A Theoretical Analysis of Linear and Multi-linear Models of Image Appearance',
+          note: 'Y. Xu and A. Roy-Chowdhury.  IEEE Conf. on Computer Vision and Pattern Recognition, 2008.',
+          link: '/publications/cvpr08_theory.pdf',
+          extras: [],
+          year: '2008'
+        },
+        {
+          name: 'Learning A Geometry-Integrated Image Appearance Manifold From A Small Training Set',
+          note: 'Y. Xu and A. Roy-Chowdhury. IEEE Conf. on Computer Vision and Pattern Recognition, 2008.',
+          link: '/publications/cvpr08_GAM.pdf',
+          extras: [],
+          year: '2008'
+        },
+        {
+          name: 'Inverse Compositional Estimation of 3D Pose And Lighting in Dynamic Scenes',
+          note: 'Y. Xu and A. Roy-Chowdhury, IEEE Trans. on Pattern Analysis and Machine Intelligence, July 2008.',
+          link: '/publications/pami08.pdf',
+          extras: [],
+          year: '2008'
+        },
+        {
+          name: 'Integrating Illumination, Motion and Shape Models for Robust Face Recognition In Video',
+          note: 'Y.Xu, A. Roy-Chowdhury, and K. Patel. EURASIP Journal on Advances in Signal Processing: Advanced Signal Processing and Pattern Recognition Methods for Biometrics, 2008.',
+          link: '/publications/integratingillumination.pdf',
+          extras: [],
+          year: '2008'
+        },
+        {
+          name: 'Integrating Motion, Illumination and Structure in Video Sequences, With Applications in Illumination-Invariant Tracking',
+          note: 'Y. Xu and A. Roy-Chowdhury.  IEEE Trans. on Pattern Analysis and Machine Intelligence, May 2007.',
+          link: '/publications/integratingmotion.pdf',
+          extras: [],
+          year: '2007'
+        },
+        {
+          name: 'Integrating the Effects of Motion, Illumination and Structure in Video Sequences',
+          note: 'Y. Xu and A. Roy-Chowdhury, IEEE Intl. Conf. on Computer Vision, 2005.',
+          link: '/publications/iccv05.pdf',
+          extras: [],
+          year: '2005'
+        },
+        {
+          name: 'Super-resolved Facial Texture Under Changing Pose and Illumination',
+          note: 'J. Yu, B. Bhanu, Y. Xu, A. Roy-Chowdhury, IEEE Intl. Conf. on Image Processing, 2007.',
+          link: '/publications/icip07-face.pdf',
+          extras: [],
+          year: ''
         }
       ]
     }

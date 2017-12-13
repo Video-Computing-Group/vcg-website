@@ -122,7 +122,7 @@
           },
           {
             name: 'Distributed Estimation for Tracking in Camera Networks',
-            link: 'eccv2016_jawad.pdf',
+            link: 'ICPR_Rameswar.pdf',
             image: 'TPAMI_1.png',
             source: 'IEEE',
             type: 'TPAMI 2016'

@@ -108,7 +108,7 @@ export default {
         {
           name: 'Weakly Supervised Summarization of Web Videos',
           note: 'R. Panda, A. Das, Z. Wu, J. Ernst and A. Roy-Chowdhury, International Conference on Computer Vision, 2017.',
-          link: '/publications/ICCV_Jawad.pdf',
+          link: '/publications/ICCV_Rameswar.pdf',
           year: '2017'
         }
       ]

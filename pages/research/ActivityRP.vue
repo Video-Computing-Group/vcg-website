@@ -185,7 +185,7 @@ export default {
         {
           name: 'Vector Field Analysis for Multi-Object Behavior Modeling',
           note: 'N. Nayak, Y. Zhu, A. Roy-Chowdhury, Image and Vision Computing, 2013.',
-          link: '/publications/N. Nayak, Y. Zhu, A. Roy-Chowdhury, Image and Vision Computing, 2013.',
+          link: '/publications/ivc13.pdf',
           extras: [
 
           ],

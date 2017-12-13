@@ -92,7 +92,7 @@ export default {
         {
           name: 'Adaptive Geometric Tessellation For 3D Reconstruction of Anisotropically Developing Cells In Multilayer Tissues From Sparse Volumetric Microscopy Images',
           note: 'A. Chakraborty, M. Perales, G. V. Reddy, A. Roy-Chowdhury, PLOS One, 2013.',
-          link: '/publications/article.html',
+          link: '/publications/adaptivegeometric.pdf',
           extras: [
 
           ],
