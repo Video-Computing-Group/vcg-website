@@ -6,7 +6,7 @@
               <img id="profile-picture" src="/img/people/amit.jpg" alt="Amit">
           </div>
           <div class="col-md-4">
-              <h3 id="name">Amit K. Roy-Chowdhury</h3>
+              <h3 id="name">Amit Roy-Chowdhury</h3>
               <p><strong>Professor</strong>, <a href="http://ece.ucr.edu">Electrical and Computing Enginering</a></p>
               <p><strong>Cooperating Faculty</strong>, <a href="http://ece.ucr.edu">Computer Science and Engineering</a></p>
               <p><strong>Principal Investigator</strong>, <router-link to="/">Video Computing Group</router-link></p>
@@ -42,7 +42,7 @@
         <div class="container row">
             <div class="col-md-12">
                 <p>
-                    Dr. Roy-Chowdhury leads the Video Computing Group at UCR, with research interests in computer vision/image processing, pattern recognition, and statistical signal processing. His group is involved in research projects related to camera networks, human behavior modeling, face recognition, and bioimage analysis. Application domains include national and homeland security, commercial multimedia, home infrastructure, computational biology, and digital arts. The underlying approach of his research is to harness various methods in systems theory, signal processing, machine learning, mathematics and statistics to the analysis of images and videos in order to obtain an understanding of their content. This scientific understanding can lead to machine vision technologies that can provide an automated/semi-automated analysis of the 3D environment from images/videos, analogous to the capabilities of biological visual systems. Prof. Roy-Chowdhury's research has been supported by various agencies including the National Science Foundation, Office of Naval Research, Army Research Office, DARPA, National Endowment for the Humanities, and private industries like CISCO and Lockheed-Martin. His recent book on <a href="http://www.morganclaypool.com/doi/abs/10.2200/S00400ED1V01Y201201COV004">Camera Networks</a>, the first monograph on the topic, provides an overview of current research in the field. For more details, please see his <a href="people/amitcv.pdf">CV</a>.
+                    Dr. Roy-Chowdhury leads the Video Computing Group at UCR, with research interests in computer vision, image processing, pattern recognition, and statistical signal processing. His group is involved in research projects related to camera networks, human behavior modeling, face recognition, and bioimage analysis. Prof. Roy-Chowdhury's research has been supported by various US government agencies and private industries. His research group has published close to 200 papers in peer-reviewed journals and top conferences, including ~50 journal papers and another ~40 in highly competitive computer vision conferences. He is the first author of the book Camera Networks: The Acquisition and Analysis of Videos Over Wide Areas, the first monograph on the topic. His work on face recognition in art was featured widely in the news media, including a PBS/National Geographic documentary and in The Economist. He is on the editorial boards of major journals and program committees of the main conferences in his area. He is a Fellow of the IAPR. For more details, please see his <a href="people/amitcv.pdf">CV</a>.
                 </p>
             </div>
         </div>
