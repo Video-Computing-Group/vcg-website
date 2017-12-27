@@ -14,9 +14,15 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li v-for="item in navItems" :key="item.name">
-              <nuxt-link :to="item.link">{{item.name}}</nuxt-link>
-            </li>
+            <nuxt-link v-for="item in navItems" 
+              :key="item.name"
+              tag="li" 
+              active-class="active" 
+              exact
+              :to="item.link"
+            >
+              <a>{{item.name}}</a>
+            </nuxt-link>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research Projects<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -87,4 +93,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #ffc800;
+  background-color: inherit;
+}
+</style>
 
