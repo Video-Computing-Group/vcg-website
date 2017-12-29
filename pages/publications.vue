@@ -939,7 +939,7 @@ export default {
             'Alignment of Real-Time Live-Cell Growth Data for Quantitative Analysis of Growth at the Shoot Apex of Arabidopsis thaliana',
           note:
             'M. Tataw, V. Reddy, A. Roy-Chowdhury, ACM Conference on Bioinformatics, Computational Biology and Biomedicine, 2012.',
-          link: '/publications/publications.php',
+          link: '/publications/publications2.php',
           extras: [],
           year: '2012'
         },

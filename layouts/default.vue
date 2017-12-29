@@ -3,7 +3,9 @@
     <HeaderAmit/>
     <NavBar/>
     <PromoImagesAmit></PromoImagesAmit>
-    <nuxt/>
+    <transition name="fade" mode="out-in">
+      <nuxt/>
+    </transition>
     <FooterAmit/>
   </div>
 </template>
@@ -24,3 +26,13 @@ export default {
 }
 </script>
 
+<style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

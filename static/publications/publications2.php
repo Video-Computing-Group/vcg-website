@@ -24,7 +24,7 @@
 					   <div>
 <ul id="sidebar">
 		<li><div class="sidebar-element-black"><a href="index.php">VIDEO COMPUTING GROUP</a></div></li>	<!--<li><div class="sidebar-element-black"><a href="VisualComputingGroup.php">VIDEO COMPUTING GROUP</a></div></li> -->
-	<li><div class="sidebar-element-black"><a href="research.php">RESEARCH PROJECTS</a></div></li>	<li><div class="sidebar-element-black"><a href="publications.php">PUBLICATIONS</a></div></li>	<li><div class="sidebar-element-black"><a href="datasets.php">DATASETS</a></div></li>			
+	<li><div class="sidebar-element-black"><a href="research.php">RESEARCH PROJECTS</a></div></li>	<li><div class="sidebar-element-black"><a href="publications2.php">PUBLICATIONS</a></div></li>	<li><div class="sidebar-element-black"><a href="datasets.php">DATASETS</a></div></li>			
 		
 	
 		
@@ -520,7 +520,7 @@
 								A. Roy-Chowdhury and Y. Xu., Multi-Biometric Systems for Identity Recognition: Theory and Experiments, (Eds. N.V. Boulgouris, K.N. Plataniotis and E. Micheli-Tzanakou), IEEE Press, In Press.
 							</li>
 							<li>
-								<a href="publications/wmvc09-2.pdf">Query-based Retrieval of Complex Activities using “Strings of Motion-Words”</a><br />
+								<a href="publications/wmvc09-2.pdf">Query-based Retrieval of Complex Activities using ï¿½Strings of Motion-Wordsï¿½</a><br />
 								U. Gaur, B. Song, A. Roy-Chowdhury, IEEE Workshop on Motion and Video Computing, 2009.
 							</li>
 							

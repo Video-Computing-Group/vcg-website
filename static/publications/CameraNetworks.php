@@ -26,7 +26,7 @@
 					<div>
 <ul id="sidebar">
 		<li><div class="sidebar-element-black"><a href="index.php">VIDEO COMPUTING GROUP</a></div></li>	<!--<li><div class="sidebar-element-black"><a href="VisualComputingGroup.php">VIDEO COMPUTING GROUP</a></div></li> -->
-	<li><div class="sidebar-element-black"><a href="research.php">RESEARCH PROJECTS</a></div></li>	<li><div class="sidebar-element-black"><a href="publications.php">PUBLICATIONS</a></div></li>	<li><div class="sidebar-element-black"><a href="datasets.php">DATASETS</a></div></li>			
+	<li><div class="sidebar-element-black"><a href="research.php">RESEARCH PROJECTS</a></div></li>	<li><div class="sidebar-element-black"><a href="publications2.php">PUBLICATIONS</a></div></li>	<li><div class="sidebar-element-black"><a href="datasets.php">DATASETS</a></div></li>			
 		
 	
 		
